@@ -53,9 +53,9 @@
     <div class="card hero">
       <div class="avatar">신랑</div>
       <div>
-        <div class="names">신랑 이름 <span style="color:#aaa;font-weight:400">&amp;</span> 신부 이름</div>
+        <div class="names">김동환 <span style="color:#aaa;font-weight:400">&amp;</span> 조연진</div>
         <p class="lead">저희의 특별한 날에 초대합니다. 함께 축복해 주세요.</p>
-        <div class="date">2025년 12월 25일(목) · 오후 3시</div>
+        <div class="date">2026년 1월 31일(토) · 오후 3시 30분</div>
       </div>
     </div>
 
@@ -63,12 +63,30 @@
       <div class="section-title">식장 안내</div>
       <div class="info">
         <div>
-          <div class="details">더클래스 예식장 (서울시 강남구 예시로 123)</div>
+          <div class="details">PJ 호텔</div>
           <div style="margin-top:8px">
             <a class="btn" href="https://maps.google.com" target="_blank" rel="noopener">길찾기 (지도 열기)</a>
           </div>
         </div>
-        <div class="map">지도 미리보기</div>
+        <!-- * 카카오맵 - 지도퍼가기 -->
+<!-- 1. 지도 노드 -->
+<div id="daumRoughmapContainer1759549647699" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+<!--
+  2. 설치 스크립트
+  * 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+-->
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+<!-- 3. 실행 스크립트 -->
+<script charset="UTF-8">
+  new daum.roughmap.Lander({
+    "timestamp" : "1759549647699",
+    "key" : "2bo7c5kaawsh",
+    "mapWidth" : "640",
+    "mapHeight" : "360"
+  }).render();
+</script>
       </div>
     </div>
 
