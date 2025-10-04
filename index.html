@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+  <title>우리의 결혼식에 초대합니다</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&amp;display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#fff8f4;
+      --accent:#d96b6b;
+      --muted:#6b6b6b;
+      --card:#ffffff;
+      --glass: rgba(255,255,255,0.6);
+      font-family: 'Nanum Gothic', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;background:linear-gradient(180deg,var(--bg),#fff);color:#222}
+    .wrap{max-width:420px;margin:0 auto;padding:18px}
+
+    .card{background:var(--card);border-radius:18px;padding:18px;margin-bottom:16px;box-shadow:0 6px 24px rgba(0,0,0,0.08)}
+    .hero{display:flex;gap:12px;align-items:center}
+    .avatar{width:72px;height:72px;border-radius:50%;background:linear-gradient(135deg,var(--accent),#ffb7b7);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:20px}
+    h1{margin:0;font-size:18px}
+    p.lead{margin:6px 0 0;color:var(--muted);font-size:14px}
+
+    .names{font-size:20px;font-weight:800;letter-spacing:0.4px}
+    .date{margin-top:10px;font-weight:700;color:var(--accent)}
+
+    .section-title{font-weight:700;margin-bottom:8px}
+    .info{display:flex;gap:12px;align-items:flex-start}
+    .info div{flex:1}
+    .map{height:120px;border-radius:12px;background:linear-gradient(90deg,#ffecec,#fff0f0);display:flex;align-items:center;justify-content:center;color:var(--muted)}
+
+    .rsvp input[type=text], .rsvp input[type=tel], .rsvp textarea, .rsvp select{width:100%;padding:12px;border-radius:10px;border:1px solid #eee;background:transparent;font-size:14px}
+    .rsvp textarea{min-height:80px;resize:vertical}
+    .btn{display:inline-block;padding:12px 16px;border-radius:12px;background:var(--accent);color:white;font-weight:700;text-decoration:none;border:none;width:100%}
+
+    .details{font-size:14px;color:var(--muted);line-height:1.5}
+    .footer{font-size:13px;color:#888;text-align:center;padding:8px}
+
+    /* small decorative timeline */
+    .timeline{display:flex;gap:8px;align-items:center}
+    .dot{width:10px;height:10px;border-radius:50%;background:var(--accent)}
+
+    /* responsive tweaks */
+    @media (max-width:360px){.avatar{width:60px;height:60px;font-size:18px}.names{font-size:18px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <div class="card hero">
+      <div class="avatar">신랑</div>
+      <div>
+        <div class="names">신랑 이름 <span style="color:#aaa;font-weight:400">&amp;</span> 신부 이름</div>
+        <p class="lead">저희의 특별한 날에 초대합니다. 함께 축복해 주세요.</p>
+        <div class="date">2025년 12월 25일(목) · 오후 3시</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="section-title">식장 안내</div>
+      <div class="info">
+        <div>
+          <div class="details">더클래스 예식장 (서울시 강남구 예시로 123)</div>
+          <div style="margin-top:8px">
+            <a class="btn" href="https://maps.google.com" target="_blank" rel="noopener">길찾기 (지도 열기)</a>
+          </div>
+        </div>
+        <div class="map">지도 미리보기</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="section-title">식순</div>
+      <div class="timeline">
+        <div style="flex:1">
+          <div class="dot"></div>
+          <div class="details" style="margin-top:6px">사회 · 축가 · 주례 · 건배</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card rsvp" id="rsvpCard">
+      <div class="section-title">RSVP (참석 여부)</div>
+      <form id="rsvpForm">
+        <label style="font-weight:700;font-size:13px">이름</label>
+        <input type="text" name="name" placeholder="홍길동" required />
+        <div style="height:8px"></div>
+        <label style="font-weight:700;font-size:13px">연락처</label>
+        <input type="tel" name="phone" placeholder="010-1234-5678" />
+        <div style="height:8px"></div>
+        <label style="font-weight:700;font-size:13px">참석여부</label>
+        <select name="attend">
+          <option value="yes">참석합니다</option>
+          <option value="no">불참합니다</option>
+        </select>
+        <div style="height:8px"></div>
+        <label style="font-weight:700;font-size:13px">동반 인원 (본인 제외)</label>
+        <select name="guests">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3+</option>
+        </select>
+        <div style="height:8px"></div>
+        <label style="font-weight:700;font-size:13px">메시지</label>
+        <textarea name="message" placeholder="축하 메시지(선택)"></textarea>
+        <div style="height:12px"></div>
+        <button type="submit" class="btn">보내기</button>
+      </form>
+      <div id="thank" style="display:none;margin-top:12px;text-align:center;padding:10px;background:var(--glass);border-radius:10px">응답해 주셔서 감사합니다 🎉</div>
+    </div>
+
+    <div class="card">
+      <div class="section-title">추가 안내</div>
+      <div class="details">정장은 단정한 복장을 권장합니다. 주차 공간이 협소하니 대중교통 이용을 권장드립니다.</div>
+    </div>
+
+    <div class="footer">문의: 010-0000-0000 · 이메일: example@email.com</div>
+  </div>
+
+  <script>
+    // 간단한 클라이언트 사이드 처리 (데모용)
+    document.getElementById('rsvpForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      const fm = new FormData(e.target);
+      const data = Object.fromEntries(fm.entries());
+      // 실제 전송은 서버 API 또는 Google Forms, Zapier, Netlify Forms 등으로 연결하세요.
+      console.log('RSVP 보내기 예시:', data);
+      e.target.style.display = 'none';
+      document.getElementById('thank').style.display = 'block';
+      // 로컬에 임시 저장 (옵션)
+      try{ localStorage.setItem('rsvp_last', JSON.stringify(data)); }catch(err){ }
+    });
+  </script>
+</body>
+</html>
