@@ -1,180 +1,1357 @@
-<!doctype html>
-<html lang="ko">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>형지♥희은 — 초대장</title>
-  <style>
-    :root{--accent:#d94f6f;--muted:#666}
-    *{box-sizing:border-box;margin:0;padding:0}
-    body{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;background:#fff;color:#111;line-height:1.45}
-    .container{max-width:720px;margin:0 auto;padding:18px}
-    header{display:flex;flex-direction:column;align-items:center;gap:8px;padding:12px 0}
-    .date{font-size:28px;font-weight:700;text-align:center}
-    .weekday{font-size:12px;color:var(--muted)}
-    .couple{display:flex;flex-direction:column;align-items:center;margin:18px 0}
-    .names{font-size:26px;font-weight:700}
-    .venue{font-size:14px;color:var(--muted);margin-top:6px;text-align:center}
-    .section{margin:20px 0;border-top:1px solid #eee;padding-top:16px}
-    .title{font-size:14px;color:var(--accent);font-weight:700;margin-bottom:8px}
-    .invitation p{white-space:pre-line;color:#222}
-    .countdown{font-weight:700;margin-top:10px}
-    .gallery{display:flex;gap:8px;overflow-x:auto;padding:8px 0}
-    .gallery img{width:120px;height:120px;object-fit:cover;border-radius:8px}
-    .upload-form{margin-top:12px}
-    .upload-form input[type=file]{margin-top:8px}
-    .location p, .info p{margin:6px 0;color:var(--muted)}
-    .map-links{display:flex;gap:8px;margin-top:8px}
-    .map-links a{padding:8px 10px;border-radius:8px;border:1px solid #eee;text-decoration:none;color:#111;font-size:13px}
-    .accounts{display:grid;grid-template-columns:1fr;gap:10px}
-    .account{padding:10px;border-radius:8px;border:1px solid #f3f3f3;background:#fafafa}
-    .guestbook{margin-top:12px}
-    .guestbook input[type=text],.guestbook textarea,.guestbook input[type=password]{width:100%;padding:8px;margin:6px 0;border:1px solid #e6e6e6;border-radius:6px}
-    .btn{display:inline-block;padding:10px 14px;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none;cursor:pointer}
-    footer{font-size:12px;color:var(--muted);text-align:center;padding:18px 0}
-    @media(min-width:720px){.container{padding:30px}}
-  </style>
-  <script src="https://unpkg.com/dropbox/dist/Dropbox-sdk.min.js"></script>
-</head>
-<body>
-  <div class="container">
-    <header>
-      <div class="date">2026<br><span class="weekday">SATURDAY</span></div>
-      <div class="couple">
-        <div class="names">동환<br>연진</div>
-        <div class="venue">PJ 호텔 뮤즈홀</div>
-      </div>
-    </header>
+<html lang="en" style="width: 100%; overflow: auto;"><head>
+<meta charset="UTF-8">
 
-    <section class="section invitation">
-      <div class="title">INVITATION</div>
-      <p>인사말
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=2.0,minimum-scale=1.0,user-scalable=1;viewport-fit=cover">
+<style>
 
-저희 두 사람이 사랑과 믿음으로
-한 가정을 이루게 되었습니다.
-바쁘시더라도 부디 오셔서 저희들의 앞날을
-축복해 주시고 격려해 주시면
-더없는 기쁨이 되겠습니다.
+html { -ms-content-zooming: none; -ms-touch-action: pan-x pan-y; touch-action: pan-y;}
+</style>
 
-식사는 예식 30분 전부터 준비되어 있습니다.</p>
-      <div style="margin-top:12px;color:var(--muted)">
-        <div>신랑: 동환 (김승근, 정진철 의 막내)</div>
-        <div>신부: 연진 (조남창, 김석순 의 막내)</div>
-      </div>
-    </section>
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="format-detection" content="telephone=no">
 
-    <section class="section">
-      <div class="title">THE WEDDING DAY</div>
-      <div>2026년 1월 31일 오후 3시 30분</div>
-      <div class="countdown">동환, 연진의 결혼식이 <strong>36</strong> 일 남았습니다.</div>
-    </section>
+<title>형지♡희은</title>
+<meta property="og:url" content="https://m.bomtvcard.com/?uid=1755407160835">
+<meta property="og:title" content="형지♡희은">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://m.bomtvcard.com/data/1755407160835/crop_KK_251005_183906_05604900sT3MXw.jpg">  
+<meta property="og:description" content="우리 결혼합니다."><link rel="apple-touch-icon-precomposed" href="/skin/skin_style/favicon.png">
+<link rel="shortcut Icon" href="/skin/skin_style/favicon.png">
+<link rel="stylesheet" href="/skin/wed150/css/skin.css?1760675574">
+<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-JBQKSX9K43&amp;cx=c&amp;gtm=4e5af1"></script><script src="/skin/skin_style/jquery-1.11.0.min2.js"></script>
 
-    <section class="section location">
-      <div class="title">LOCATION</div>
-        <div style="width:100%;" id="daumRoughmapContainer1759549647699" class="root_daum_roughmap root_daum_roughmap_landing"></div>
 
-        <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
-        <!-- 3. 실행 스크립트 -->
-        <script charset="UTF-8">
-          new daum.roughmap.Lander({
-            "timestamp" : "1759549647699",
-            "key" : "2bo7c5kaawsh",
-            "mapWidth" : "30%",
-            "mapHeight" : "400"
-          }).render();
-        </script>
-      <p>오시는 길</p>
-      <p>서울 중구 마른내로 71</p>
-      <p>PJ 호텔 뮤즈홀</p>
-      <div style="margin-top:8px;color:var(--muted)">지하철: 수인분당선 수원시청역 10번 출구 도보 1분</div>
-        <div class="map-links">
-          <a href="https://map.naver.com/?menu=location&amp;pinType=place&amp;lat=37.261593&amp;lng=127.033413&amp;title=경기 수원시 팔달구 효원로 289 (인계동 1124-5) "><div><img src="https://m.bomtvcard.com/skin/wed150/images/naverICON.png" class="BOX_NAVERIMG">&nbsp;네이버지도</div></a>
-        <a href="https://apis.openapi.sk.com/tmap/app/routes?appKey=l7xxf131c69d9bce4925b36cde90c71b8f1f&amp;name=경기 수원시 팔달구 효원로 289 (인계동 1124-5) &amp;lon=127.033413&amp;lat=37.261593" target="_blank"><div><img src="https://m.bomtvcard.com/skin/wed150/images/tmapICON.png">&nbsp;티맵</div></a>
-        <div onclick="navi()"><img src="https://m.bomtvcard.com/skin/wed150/images/kakaonaviICON.png">&nbsp;카카오내비</div>
-      </div>
-      <div style="margin-top:8px;color:var(--muted)">자동차: 을지트윈타워 주차 후 도보 3분</div>
-        <div class="map-links">
-        <a href="#" onclick="alert('네이버지도로 이동')">네이버지도</a>
-        <a href="#" onclick="alert('티맵으로 이동')">티맵</a>
-        <a href="#" onclick="alert('카카오내비로 이동')">카카오내비</a>
-      </div>
-    </section>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-112827387-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-112827387-2');
+</script>
+<style data-emotion="css" data-s=""></style></head>
 
-    <section class="section info">
-      <div class="title">INFORMATION</div>
-      <div class="accounts">
-        <div class="account">
-          <strong>신랑측 계좌</strong>
-          <div>국민은행 22880204040846 (가재길)</div>
-        </div>
-        <div class="account">
-          <strong>신랑측 계좌</strong>
-          <div>농협 13003652054699 (이석연)</div>
-        </div>
-        <div class="account">
-          <strong>신부측 계좌</strong>
-          <div>카카오뱅크 3333060836903 (이희은)</div>
-        </div>
-      </div>
-    </section>
 
-    <section class="section">
-    <div class="title">GALLERY</div>
-    <div class="gallery" id="gallery"></div>
-    <form class="upload-form" id="uploadForm">
-    <label for="photoUpload">사진 추가하기:</label>
-    <input type="file" id="photoUpload" accept="image/*" multiple>
-    <button class="btn" type="submit">Dropbox 업로드</button>
-    </form>
-    <div style="margin-top:8px;color:var(--muted)">Dropbox로 업로드된 사진은 자동으로 갤러리에 표시됩니다.</div>
-    </section>
+<body style="width: 100%; overflow: auto;"><div data-wxt-integrated=""><div id="__endic_crx__"><div class="css-1rld6j7"></div></div></div>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;family=Open+Sans:wght@300;400&amp;display=swap" rel="stylesheet">
 
-    <footer>
-      <div>Copyright 2025. BOMCARD. All rights reserved.</div>
-    </footer>
+<!-- <script src="/skin/skin_style/mapResizable.js"></script> -->
+<script src="/skin/skin_style/calendar_wed150.js"></script>
+<script type="text/javascript" src="/skin/wed150/js/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="/skin/wed150/css/swiper-bundle.min.css">
+
+<style>
+.title_box_wrap_2{
+  width:80%;margin:0 auto;background-image:url(https://m.bomtvcard.com/data/1755407160835/crop_TT_251005_181902_4529170016ixkm.jpg);
+  background-color:#fff;background-repeat:no-repeat;background-size:100% auto;background-position:auto center;
+}
+</style>
+<div class="title_box_wrap">
+<!--
+<video width="500" autoplay="true" style="width:100%;height:300px;position:absolute;left:0;top:0;">
+  <source src="/skin/wed150/images/flower_00_1.mp4" type="video/mp4">
+</video>
+-->
+  <img src="/skin/wed150/images/main_img_icon1.png" class="main_img_icon1">
+  <img src="/skin/wed150/images/main_img_icon2.png" class="main_img_icon2">
+  <div style="height:90px"></div>
+  <div class="title_box_wrap_1">
+    <div class="wd_date">2025<div class="wd_line"></div>11<div class="wd_line"></div>22</div>
+    <div class="wd_YOIL">SATURDAY</div>
   </div>
+  <div style="height:50px"></div>
+  <div class="title_box_wrap_2">
+     <img src="/skin/wed150/images/main_img.png" class="frame">
+
+  </div>
+  <div style="height:50px"></div>
+  <div class="title_box_wrap_3">
+    <div class="wd_names">형지<div class="wd_line" style="height:15px"></div>희은</div>
+    <div class="wd_info">파티움하우스 수원 (구.제이마리스)  3F 파티움홀</div>
+  </div>
+  <div style="clear:both;height:50px"></div>
+</div>
+
+
+<!-- 인사글 시작 -->
+<div id="invitation">
+  <div class="TITLE_EN">INVITATION</div>
+  <div class="TITLE_KR">인사말</div>
+  <div class="invitation_txt">저희 두 사람이 사랑과 믿음으로<br>
+한 가정을 이루게 되었습니다.<br>
+바쁘시더라도 부디 오셔서 저희들의 앞날을<br>
+축복해 주시고 격려해 주시면<br>
+더없는 기쁨이 되겠습니다.<br>
+<br>
+<br>
+식사는 예식 30분 전부터 준비되어 있습니다.</div>
+  <div style="height:100px;clear:both"></div>
+</div>
+<!-- 인사글 종료-->
+
+
+
+
+<!-- 혼주 정보 시작-->
+<div>   
+    <div class="p_name_wrap">
+          <table class="nameTB" t="4">
+                <tbody><tr a="1">
+          <td></td>
+          <td align="right">가재길</td>
+          <td width="20" align="center"><div class="wd_line2"></div></td>
+          <td align="left"></td>
+          <td>이석연</td>
+          <td width="10"></td>
+          <td class="_ps3">의</td>
+          <td width="10"></td>
+          <td class="_ps3">장남</td>
+          <td width="20"></td>
+          <td align="center">형지</td>
+        </tr>
+                <tr style="height:17px;"><td colspan="11"></td></tr>
+        <tr a="2">
+          <td></td>
+          <td align="right">이동천</td>
+          <td width="20" align="center"><div class="wd_line2"></div></td>
+          <td align="left"></td>
+          <td>김석순</td>
+          <td width="10"></td>
+          <td class="_ps3">의</td>
+          <td width="10"></td>
+          <td class="_ps3">장녀</td>
+          <td width="20"></td>
+          <td align="center">희은</td>
+        </tr>
+      </tbody></table>    <div class="collBtn" onclick="showCall()">연락하기</div>
+    </div>
+  <div style="height:80px;clear:both"></div>
+</div>
+
+
+<div class="CALL_SHADE" style="display: none;"></div>
+<div class="CALL" style="top: 178.5px; display: none;">
+  <img src="/skin/wed150/images/X_ICON.svg" class="X_ICON" onclick="hideCall()">
+  <div style="height:60px;clear:both"></div>
+  <div class="CALL_TITLE">축하 인사 전하기</div>
+  <div style="height:5px;clear:both"></div>
+  <div class="CALL_TITLE2">전화, 문자메세지로 축하 인사를 전해보세요.</div>
+  <div style="height:40px;clear:both"></div>
+  <div class="CALL_LINE"></div>
+  <div style="height:25px;clear:both"></div>
+  <table class="CALL_TB">
+    <tbody><tr>
+      <td width="*" class="CALL_TB1">신랑</td>
+      <td width="30%" class="CALL_TB2">형지</td>
+      <td width="17%" class="CALL_TB3">
+        <div class="CALL_ICONS">
+          <div class="CALL_ICONS3"></div><div class="CALL_ICONS3"></div><div class="CALL_ICONS3"></div>
+        </div>      
+        <a href="tel:01024620831"><img src="/skin/wed150/images/phone_icon.jpg" class="phone_icon"></a>
+      </td>
+      <td width="17%" class="CALL_TB4"><a href="sms:01024620831"><img src="/skin/wed150/images/msg_icon.jpg" class="msg_icon"></a></td>
+    </tr>
+  </tbody></table>
+  <div style="height:30px;clear:both"></div>
+  <div class="CALL_LINE2"></div>
+  <div style="height:30px;clear:both"></div>
+  <table class="CALL_TB">
+    <tbody><tr>
+      <td width="*" class="CALL_TB1">신부</td>
+      <td width="30%" class="CALL_TB2">희은</td>
+      <td width="17%" class="CALL_TB3">
+        <div class="CALL_ICONS">
+          <div class="CALL_ICONS3"></div><div class="CALL_ICONS3"></div><div class="CALL_ICONS3"></div>
+        </div>      
+        <a href="tel:01071729105"><img src="/skin/wed150/images/phone_icon.jpg" class="phone_icon"></a>
+      </td>
+      <td width="17%" class="CALL_TB4"><a href="sms:01071729105"><img src="/skin/wed150/images/msg_icon.jpg" class="msg_icon"></a></td>
+    </tr>
+  </tbody></table>  
+  <div style="height:40px;clear:both"></div>
+</div>
+<!-- 혼주 정보 종료-->
+
+
+
+<!-- 달력 시작 -->
+
+<div style="background:#FDFDFD;">
+<div style="width:90%;margin:0 auto;position:relative;" data-aos="fade-up" data-aos-duration="1000">
+  <div style="height:90px;clear:both"></div>
+  <div class="_titleBox">
+    <div class="TITLE_EN">THE WEDDING DAY</div>
+    <div style="height:10px;clear:both"></div>
+    <div class="TITLE_KR2">2025년 11월 22일 오후 3시</div>
+    <div style="height:15px;"></div>
+  <!--
+    <img src="/skin/wed143/images/11.png" class="_titleTxtIcon">
+    01~12 월까지 이미지 
+  -->
+  </div>
+  <div style="height:20px;clear:both"></div>
+  
+  <div id="div_calendar"><table class="cal"><tbody><tr style="height:30px"><th style="width:14.28%;">일</th><th style="width:14.28%;">월</th><th style="width:14.28%;">화</th><th style="width:14.28%;">수</th><th style="width:14.28%;">목</th><th style="width:14.28%;">금</th><th style="width:14.28%;">토</th></tr><tr style="height:10px"><td colspan="10"></td></tr><tr><td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td style=" text-align:center; " onclick="calendar_set_date('20251101');">1</td></tr><tr><td style=" text-align:center;" onclick="calendar_set_date('20251102');">2</td><td style=" text-align:center;" onclick="calendar_set_date('20251103');">3</td><td style=" text-align:center;" onclick="calendar_set_date('20251104');">4</td><td style=" text-align:center;" onclick="calendar_set_date('20251105');">5</td><td style=" text-align:center;" onclick="calendar_set_date('20251106');">6</td><td style=" text-align:center;" onclick="calendar_set_date('20251107');">7</td><td style=" text-align:center; " onclick="calendar_set_date('20251108');">8</td></tr><tr><td style=" text-align:center;" onclick="calendar_set_date('20251109');">9</td><td style=" text-align:center;" onclick="calendar_set_date('20251110');">10</td><td style=" text-align:center;" onclick="calendar_set_date('20251111');">11</td><td style=" text-align:center;" onclick="calendar_set_date('20251112');">12</td><td style=" text-align:center;" onclick="calendar_set_date('20251113');">13</td><td style=" text-align:center;" onclick="calendar_set_date('20251114');">14</td><td style=" text-align:center; " onclick="calendar_set_date('20251115');">15</td></tr><tr><td style=" text-align:center;" onclick="calendar_set_date('20251116');">16</td><td style=" text-align:center;" onclick="calendar_set_date('20251117');">17</td><td style=" text-align:center;" onclick="calendar_set_date('20251118');">18</td><td style=" text-align:center;" onclick="calendar_set_date('20251119');">19</td><td style=" text-align:center;" onclick="calendar_set_date('20251120');">20</td><td style=" text-align:center;" onclick="calendar_set_date('20251121');">21</td><td class="content_img" style=" text-align:center; " onclick="calendar_set_date('20251122');"><div class="content_imgBox">22</div></td></tr><tr><td style=" text-align:center;" onclick="calendar_set_date('20251123');">23</td><td style=" text-align:center;" onclick="calendar_set_date('20251124');">24</td><td style=" text-align:center;" onclick="calendar_set_date('20251125');">25</td><td style=" text-align:center;" onclick="calendar_set_date('20251126');">26</td><td style=" text-align:center;" onclick="calendar_set_date('20251127');">27</td><td style=" text-align:center;" onclick="calendar_set_date('20251128');">28</td><td style=" text-align:center; " onclick="calendar_set_date('20251129');">29</td></tr><tr><td style=" text-align:center;" onclick="calendar_set_date('20251130');">30</td><td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr></tbody></table><div id="calendar_years" style="position:absolute; margin-left:3px; width:154px; visibility:hidden; background-color:#ffffff;"><div style="margin-top:0px; margin-left:0px; float:left; width:35px; height:20px; text-align:center; padding-top:2px; border:1px solid #c2c2c2; background-color:#e5e5e5; font-size:11px; cursor:pointer;" onclick="calendar_draw('20211101')" onmouseover="this.style.backgroundColor='#c2c2c2';" onmouseout="this.style.backgroundColor='#e5e5e5';">2021</div><div style="margin-top:0px; margin-left:2px; float:left; width:35px; height:20px; text-align:center; padding-top:2px; border:1px solid #c2c2c2; background-color:#e5e5e5; font-size:11px; cursor:pointer;" onclick="calendar_draw('20221101')" onmouseover="this.style.backgroundColor='#c2c2c2';" onmouseout="this.style.backgroundColor='#e5e5e5';">2022</div><div style="margin-top:0px; margin-left:2px; float:left; width:35px; height:20px; text-align:center; padding-top:2px; border:1px solid #c2c2c2; background-color:#e5e5e5; font-size:11px; cursor:pointer;" onclick="calendar_draw('20231101')" onmouseover="this.style.backgroundColor='#c2c2c2';" onmouseout="this.style.backgroundColor='#e5e5e5';">2023</div><div style="margin-top:0px; margin-left:2px; float:left; width:35px; height:20px; text-align:center; padding-top:2px; border:1px solid #c2c2c2; background-color:#e5e5e5; font-size:11px; cursor:pointer;" onclick="calendar_draw('20241101')" onmouseover="this.style.backgroundColor='#c2c2c2';" onmouseout="this.style.backgroundColor='#e5e5e5';">2024</div><div style="margin-top:2px; margin-left:0px; float:left; width:35px; height:20px; text-align:center; padding-top:2px; border:1px solid #c2c2c2; background-color:#e5e5e5; font-size:11px; cursor:pointer;" onclick="calendar_draw('20251101')" onmouseover="this.style.backgroundColor='#c2c2c2';" onmouseout="this.style.backgroundColor='#e5e5e5';">2025</div><div style="margin-top:2px; margin-left:2px; float:left; width:35px; height:20px; text-align:center; padding-top:2px; border:1px solid #c2c2c2; background-color:#e5e5e5; font-size:11px; cursor:pointer;" onclick="calendar_draw('20261101')" onmouseover="this.style.backgroundColor='#c2c2c2';" onmouseout="this.style.backgroundColor='#e5e5e5';">2026</div><div style="margin-top:2px; margin-left:2px; float:left; width:35px; height:20px; text-align:center; padding-top:2px; border:1px solid #c2c2c2; background-color:#e5e5e5; font-size:11px; cursor:pointer;" onclick="calendar_draw('20271101')" onmouseover="this.style.backgroundColor='#c2c2c2';" onmouseout="this.style.backgroundColor='#e5e5e5';">2027</div><div style="margin-top:2px; margin-left:2px; float:left; width:35px; height:20px; text-align:center; padding-top:2px; border:1px solid #c2c2c2; background-color:#e5e5e5; font-size:11px; cursor:pointer;" onclick="calendar_draw('20281101')" onmouseover="this.style.backgroundColor='#c2c2c2';" onmouseout="this.style.backgroundColor='#e5e5e5';">2028</div><div style="margin-top:2px; margin-left:0px; float:left; width:35px; height:20px; text-align:center; padding-top:2px; border:1px solid #c2c2c2; background-color:#e5e5e5; font-size:11px; cursor:pointer;" onclick="calendar_draw('20291101')" onmouseover="this.style.backgroundColor='#c2c2c2';" onmouseout="this.style.backgroundColor='#e5e5e5';">2029</div><div style="margin-top:2px; margin-left:2px; float:left; width:35px; height:20px; text-align:center; padding-top:2px; border:1px solid #c2c2c2; background-color:#e5e5e5; font-size:11px; cursor:pointer;" onclick="calendar_draw('20301101')" onmouseover="this.style.backgroundColor='#c2c2c2';" onmouseout="this.style.backgroundColor='#e5e5e5';">2030</div><div style="margin-top:2px; margin-left:2px; float:left; width:35px; height:20px; text-align:center; padding-top:2px; border:1px solid #c2c2c2; background-color:#e5e5e5; font-size:11px; cursor:pointer;" onclick="calendar_years_change('2011', '11')" onmouseover="this.style.backgroundColor='#c2c2c2';" onmouseout="this.style.backgroundColor='#e5e5e5';">이전</div><div style="margin-top:2px; margin-left:2px; float:left; width:35px; height:20px; text-align:center; padding-top:2px; border:1px solid #c2c2c2; background-color:#e5e5e5; font-size:11px; cursor:pointer;" onclick="calendar_years_change('2031', '11')" onmouseover="this.style.backgroundColor='#c2c2c2';" onmouseout="this.style.backgroundColor='#e5e5e5';">다음</div></div><div id="calendar_months" style="position:absolute; margin-left:3px; width:154px; visibility:hidden; background-color:#ffffff;"><div style="float:left; width:22px; height:20px; text-align:center; padding-top:2px; border:1px solid #c2c2c2; background-color:#e5e5e5; font-size:11px; cursor:pointer;" onclick="calendar_draw('202501')" onmouseover="this.style.backgroundColor='#c2c2c2';" onmouseout="this.style.backgroundColor='#e5e5e5';">1</div><div style="float:left; margin-left:2px; width:22px; height:20px; text-align:center; padding-top:2px; border:1px solid #c2c2c2; background-color:#e5e5e5; font-size:11px; cursor:pointer;" onclick="calendar_draw('202502')" onmouseover="this.style.backgroundColor='#c2c2c2';" onmouseout="this.style.backgroundColor='#e5e5e5';">2</div><div style="float:left; margin-left:2px; width:22px; height:20px; text-align:center; padding-top:2px; border:1px solid #c2c2c2; background-color:#e5e5e5; font-size:11px; cursor:pointer;" onclick="calendar_draw('202503')" onmouseover="this.style.backgroundColor='#c2c2c2';" onmouseout="this.style.backgroundColor='#e5e5e5';">3</div><div style="float:left; margin-left:2px; width:22px; height:20px; text-align:center; padding-top:2px; border:1px solid #c2c2c2; background-color:#e5e5e5; font-size:11px; cursor:pointer;" onclick="calendar_draw('202504')" onmouseover="this.style.backgroundColor='#c2c2c2';" onmouseout="this.style.backgroundColor='#e5e5e5';">4</div><div style="float:left; margin-left:2px; width:22px; height:20px; text-align:center; padding-top:2px; border:1px solid #c2c2c2; background-color:#e5e5e5; font-size:11px; cursor:pointer;" onclick="calendar_draw('202505')" onmouseover="this.style.backgroundColor='#c2c2c2';" onmouseout="this.style.backgroundColor='#e5e5e5';">5</div><div style="float:left; margin-left:2px; width:22px; height:20px; text-align:center; padding-top:2px; border:1px solid #c2c2c2; background-color:#e5e5e5; font-size:11px; cursor:pointer;" onclick="calendar_draw('202506')" onmouseover="this.style.backgroundColor='#c2c2c2';" onmouseout="this.style.backgroundColor='#e5e5e5';">6</div><div style="float:left; margin-top:1px; width:22px; height:20px; text-align:center; padding-top:2px; border:1px solid #c2c2c2; background-color:#e5e5e5; font-size:11px; cursor:pointer;" onclick="calendar_draw('202507')" onmouseover="this.style.backgroundColor='#c2c2c2';" onmouseout="this.style.backgroundColor='#e5e5e5';">7</div><div style="float:left; margin-left:2px; margin-top:1px; width:22px; height:20px; text-align:center; padding-top:2px; border:1px solid #c2c2c2; background-color:#e5e5e5; font-size:11px; cursor:pointer;" onclick="calendar_draw('202508')" onmouseover="this.style.backgroundColor='#c2c2c2';" onmouseout="this.style.backgroundColor='#e5e5e5';">8</div><div style="float:left; margin-left:2px; margin-top:1px; width:22px; height:20px; text-align:center; padding-top:2px; border:1px solid #c2c2c2; background-color:#e5e5e5; font-size:11px; cursor:pointer;" onclick="calendar_draw('202509')" onmouseover="this.style.backgroundColor='#c2c2c2';" onmouseout="this.style.backgroundColor='#e5e5e5';">9</div><div style="float:left; margin-left:2px; margin-top:1px; width:22px; height:20px; text-align:center; padding-top:2px; border:1px solid #c2c2c2; background-color:#e5e5e5; font-size:11px; cursor:pointer;" onclick="calendar_draw('202510')" onmouseover="this.style.backgroundColor='#c2c2c2';" onmouseout="this.style.backgroundColor='#e5e5e5';">10</div><div style="float:left; margin-left:2px; margin-top:1px; width:22px; height:20px; text-align:center; padding-top:2px; border:1px solid #c2c2c2; background-color:#e5e5e5; font-size:11px; cursor:pointer;" onclick="calendar_draw('202511')" onmouseover="this.style.backgroundColor='#c2c2c2';" onmouseout="this.style.backgroundColor='#e5e5e5';">11</div><div style="float:left; margin-left:2px; margin-top:1px; width:22px; height:20px; text-align:center; padding-top:2px; border:1px solid #c2c2c2; background-color:#e5e5e5; font-size:11px; cursor:pointer;" onclick="calendar_draw('202512')" onmouseover="this.style.backgroundColor='#c2c2c2';" onmouseout="this.style.backgroundColor='#e5e5e5';">12</div></div></div>
+  
+  <div style="height:35px;clear:both"></div>
+  <div class="cal_info2">
+  형지,희은의 결혼식이 <span>36</span>일 남았습니다.
+  </div>
+  <div style="height:70px;clear:both"></div>
+</div>
+</div>
+<input type="hidden" id="calendar_div_date" value="20251122">
+<script>
+calendar(null , 'div_calendar');
+</script><div id="calendar_div" style="width: 90%; margin: 0px auto; z-index: 99999; position: absolute; top: 3694px; left: 72px; visibility: visible;"></div>
+<!-- 달력 종료 -->
+
+
+
+
+
+<!-- 갤러리 시작 -->
+
+<style>
+.swiper-container {padding-bottom:6vw;}
+.swiper-slide {height: 88vw;text-align:center;position:relative;}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {bottom: 0px;left: 0;width: 100%;}
+
+.swiper-slide img {
+  width:93%; position:absolute; left:3.5%; top:0px; z-index:2;
+}    
+.fullscreen {position:fixed;width:100%;height:100%;left:0;top:0px;z-index:104;}
+.fullscreen .swiper-slide{position:relative;height:auto;}
+.fullscreen .swiper-wrapper{position:absolute;left:0;top:50vh;}
+.fullscreen .swiper-slide img {position:relative;width:93%;left:0;top:0;z-index:2;}
+.backdrop {
+  background: #000;
+  opacity: .7;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  cursor: pointer;display:none;z-index:102;
+}
+.swiper-slideCLOSE{display:none;width:20px;position: fixed;right:3.5%;top:50vh;z-index:105;}
+.swiper-slideFONT{display:none;position: fixed;top:50vh;left:0;z-index:104;font-family:'GowunDodum-Regular';color:#FFFFFF;font-size:3.2vw;text-align:center;width:100%;}
+
+
+
+.swiper-slide .swiper-slideIMG_center{
+  top: 50%;transform: translate(0%, -50%);
+}
+
+</style>
+
+
+<div style="clear:both">
+  <div style="height:70px;clear:both"></div>
+  <div class="TITLE_EN">GALLERY</div>
+  <div class="TITLE_KR">갤러리</div>
+  <div style="height:40px;clear:both"></div>
+</div>
+<img src="/skin/wed150/images/slide_close.svg" class="swiper-slideCLOSE" onclick="closeFullscreenSwiper()">
+<div class="swiper-slideFONT">옆으로 넘기시면 더 많은 사진을 볼 수 있습니다.</div>
+<div class="backdrop">옆으로 넘기시면 더 많은 사진을 볼 수 있습니다.</div>
+<div class="swiper-containerTEMP" style="HEIGHT:94VW;DISPLAY:NONE;"></div>
+<div class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events" style="cursor: grab;">
+    <div class="swiper-wrapper" id="swiper-wrapper-e52910f8da94f80d2" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(-746.667px, 0px, 0px);"><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="13" role="group" aria-label="1 / 19" style="width: 426.667px;">
+      <img src="/data/1755407160835/crop_A_251005_183614_97104600zBOwNH.jpg" class="swiper-slideIMG swiper-slideIMG_center">
+      <div style="clear:both"></div>
+    </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="14" role="group" aria-label="2 / 19" style="width: 426.667px;">
+      <img src="/data/1755407160835/crop_A_251005_221637_01147100JiHCBb.jpg" class="swiper-slideIMG swiper-slideIMG_center">
+      <div style="clear:both"></div>
+    </div>
+      <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" role="group" aria-label="3 / 19" style="width: 426.667px;">
+      <img src="/data/1755407160835/crop_A_251005_183019_59436000KLjry8.jpg" class="swiper-slideIMG swiper-slideIMG_center">
+      <div style="clear:both"></div>
+    </div>
+      <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" role="group" aria-label="4 / 19" style="width: 426.667px;">
+      <img src="/data/1755407160835/crop_A_251005_183034_33391000dxepAP.jpg" class="swiper-slideIMG swiper-slideIMG_center">
+      <div style="clear:both"></div>
+    </div>
+      <div class="swiper-slide" data-swiper-slide-index="2" role="group" aria-label="5 / 19" style="width: 426.667px;">
+      <img src="/data/1755407160835/crop_A_251005_183117_99904300QTVfS3.jpg" class="swiper-slideIMG swiper-slideIMG_center">
+      <div style="clear:both"></div>
+    </div>
+      <div class="swiper-slide" data-swiper-slide-index="3" role="group" aria-label="6 / 19" style="width: 426.667px;">
+      <img src="/data/1755407160835/crop_A_251005_183206_63090600eItCza.jpg" class="swiper-slideIMG swiper-slideIMG_center">
+      <div style="clear:both"></div>
+    </div>
+      <div class="swiper-slide" data-swiper-slide-index="4" role="group" aria-label="7 / 19" style="width: 426.667px;">
+      <img src="/data/1755407160835/crop_A_251005_183232_24395400ytwOY8.jpg" class="swiper-slideIMG swiper-slideIMG_center">
+      <div style="clear:both"></div>
+    </div>
+      <div class="swiper-slide" data-swiper-slide-index="5" role="group" aria-label="8 / 19" style="width: 426.667px;">
+      <img src="/data/1755407160835/crop_A_251005_183247_96727900QCtI6V.jpg" class="swiper-slideIMG swiper-slideIMG_center">
+      <div style="clear:both"></div>
+    </div>
+      <div class="swiper-slide" data-swiper-slide-index="6" role="group" aria-label="9 / 19" style="width: 426.667px;">
+      <img src="/data/1755407160835/crop_A_251005_183306_89845100PMpiWk.jpg" class="swiper-slideIMG swiper-slideIMG_center">
+      <div style="clear:both"></div>
+    </div>
+      <div class="swiper-slide" data-swiper-slide-index="7" role="group" aria-label="10 / 19" style="width: 426.667px;">
+      <img src="/data/1755407160835/crop_A_251005_183324_70213600RJDM7W.jpg" class="swiper-slideIMG swiper-slideIMG_center">
+      <div style="clear:both"></div>
+    </div>
+      <div class="swiper-slide" data-swiper-slide-index="8" role="group" aria-label="11 / 19" style="width: 426.667px;">
+      <img src="/data/1755407160835/crop_A_251005_183342_99346200MCpUE8.jpg" class="swiper-slideIMG swiper-slideIMG_center">
+      <div style="clear:both"></div>
+    </div>
+      <div class="swiper-slide" data-swiper-slide-index="9" role="group" aria-label="12 / 19" style="width: 426.667px;">
+      <img src="/data/1755407160835/crop_A_251005_183407_88089900pQZTUI.jpg" class="swiper-slideIMG swiper-slideIMG_center">
+      <div style="clear:both"></div>
+    </div>
+      <div class="swiper-slide" data-swiper-slide-index="10" role="group" aria-label="13 / 19" style="width: 426.667px;">
+      <img src="/data/1755407160835/crop_A_251005_183434_96682600d3parN.jpg" class="swiper-slideIMG swiper-slideIMG_center">
+      <div style="clear:both"></div>
+    </div>
+      <div class="swiper-slide" data-swiper-slide-index="11" role="group" aria-label="14 / 19" style="width: 426.667px;">
+      <img src="/data/1755407160835/crop_A_251005_183522_00537400fAqMaC.jpg" class="swiper-slideIMG swiper-slideIMG_center">
+      <div style="clear:both"></div>
+    </div>
+      <div class="swiper-slide" data-swiper-slide-index="12" role="group" aria-label="15 / 19" style="width: 426.667px;">
+      <img src="/data/1755407160835/crop_A_251005_183543_11346700qYIraZ.jpg" class="swiper-slideIMG swiper-slideIMG_center">
+      <div style="clear:both"></div>
+    </div>
+      <div class="swiper-slide" data-swiper-slide-index="13" role="group" aria-label="16 / 19" style="width: 426.667px;">
+      <img src="/data/1755407160835/crop_A_251005_183614_97104600zBOwNH.jpg" class="swiper-slideIMG swiper-slideIMG_center">
+      <div style="clear:both"></div>
+    </div>
+      <div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="14" role="group" aria-label="17 / 19" style="width: 426.667px;">
+      <img src="/data/1755407160835/crop_A_251005_221637_01147100JiHCBb.jpg" class="swiper-slideIMG swiper-slideIMG_center">
+      <div style="clear:both"></div>
+    </div>
+      <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" role="group" aria-label="18 / 19" style="width: 426.667px;">
+      <img src="/data/1755407160835/crop_A_251005_183019_59436000KLjry8.jpg" class="swiper-slideIMG swiper-slideIMG_center">
+      <div style="clear:both"></div>
+    </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="1" role="group" aria-label="19 / 19" style="width: 426.667px;">
+      <img src="/data/1755407160835/crop_A_251005_183034_33391000dxepAP.jpg" class="swiper-slideIMG swiper-slideIMG_center">
+      <div style="clear:both"></div>
+    </div></div>
+<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
 
 <script>
-  const dbx = new Dropbox.Dropbox({ accessToken: '12345', fetch: fetch });
-  const uploadForm = document.getElementById('uploadForm');
-  const photoInput = document.getElementById('photoUpload');
-  const gallery = document.getElementById('gallery');
+/**/
+var swiper = new Swiper('.swiper-container', {
+  //effect: 'coverflow',
+  grabCursor: true,
+  centeredSlides: true,
+  paginationClickable: true,
+  slidesPerView: '1.5',
+  offsetPxBefore:100,
+    offsetPxAfter :100,
+  loop: true
+});
+var swiperSlides = Array.from(swiper.slides);
 
+swiperSlides.forEach(function(slide) {
+  openFullscreenSliderHandler(slide);
+  closeFullscreenSliderHandler(slide);
+});
 
-  async function uploadToDropbox(file) {
-  const fileName = `/wedding_photos/${Date.now()}_${file.name}`;
-  try {
-  await dbx.filesUpload({
-  path: fileName,
-  contents: file,
-  mode: 'add',
-  autorename: true
+function openFullscreenSliderHandler(slide) {
+  var slideImage = slide.querySelector('img');
+
+  slideImage.addEventListener('click', function() {
+    var slideNumber = slide.dataset.swiperSlideIndex;
+    openFullscreenSwiper(slideNumber);
   });
-  const shared = await dbx.sharingCreateSharedLinkWithSettings({ path: fileName });
-  const imageUrl = shared.url.replace('dl=0', 'raw=1');
-  const img = document.createElement('img');
-  img.src = imageUrl;
-  img.alt = 'uploaded to dropbox';
-  gallery.appendChild(img);
-  } catch (err) {
-  console.error(err);
-  alert('Dropbox 업로드 실패: ' + err.message);
-  }
-  }
+}
+function openFullscreenSwiper(slideNumber) {
+  swiper.el.classList.add('fullscreen');
+  swiper.params.slidesPerView = 1;
+  swiper.update();
+  $('.swiper-slideIMG').attr('class','swiper-slideIMG');
+  var $imgHei=$('.swiper-slideIMG').height();
+  $('.fullscreen > .swiper-wrapper').css('margin-top' , '-' + $imgHei/2 + 'px');
+  $('.swiper-slideCLOSE').css('margin-top' , '-' + ($imgHei/2 + 35) + 'px');
+  $('.swiper-slideFONT').css('margin-top' ,  ($imgHei/2 + 35) + 'px');
+  $('.swiper-slideCLOSE,.swiper-slideFONT,.backdrop').show();
+  $('.swiper-containerTEMP').show();
+  swiper.slideToLoop(parseInt(slideNumber, 10), 0);
+}
+function closeFullscreenSliderHandler(slide) {
+  var slideNumber = slide.dataset.swiperSlideIndex;
+/*
+  var backdrop = document.createElement('div');
+  var closeButton = document.createElement('div');
 
-
-  uploadForm.addEventListener('submit', async function(e){
-  e.preventDefault();
-  const files = Array.from(photoInput.files);
-  if(!files.length) return alert('업로드할 사진을 선택하세요.');
-
-
-  await Promise.all(files.map(file => uploadToDropbox(file)));
-
-
-  photoInput.value = '';
-  alert('모든 사진이 Dropbox에 업로드되었습니다!');
+  slide.appendChild(backdrop);
+  slide.appendChild(closeButton);
+  backdrop.classList.add('backdrop');
+  closeButton.classList.add('close-button');
+  closeButton.innerHTML = 'x';
+  
+  backdrop.addEventListener('click', function() {
+    closeFullscreenSwiper(slideNumber);
   });
+
+  closeButton.addEventListener('click', function() {
+    closeFullscreenSwiper(slideNumber);
+  });
+*/
+}
+
+function closeFullscreenSwiper() {
+  $('.swiper-containerTEMP').hide();
+  swiper.el.classList.remove('fullscreen');
+  swiper.params.slidesPerView = '1.5';
+  swiper.update();
+  //swiper.slideToLoop(parseInt(slideNumber, 10), 0);
+  $('.swiper-wrapper').css('margin-top' , '0');
+  $('.swiper-slideCLOSE,.swiper-slideFONT,.backdrop').hide();
+  $('.swiper-slideIMG').attr('class','swiper-slideIMG swiper-slideIMG_center');
+}
+function closeAllGallery(){
+  $('.allGallery').hide();
+  $('.allGalleryList').show();
+  $('.allGalleryList2').hide();
+  $('html,body').css('overflow','auto');
+
+}
+function showAllGallery(){
+  $('html,body').css('overflow','hidden');
+  $('.allGalleryLEFT').hide();
+  $('.allGallery').show();
+}
+
+
 </script>
-</body>
-</html>
+
+<div class="collBtn" style="margin-top:25px;" onclick="showAllGallery()">사진 전체보기</div>
+<style>
+.allGallery {width:100vw;position:fixed;left:0;top:0;z-index:5;background:#fff;display:none;}
+.allGalleryList {width:100%;height:calc(100vh - 80px);overflow-y:auto;}
+.allGalleryList2{display:none;}
+
+.allGalleryCen{width:93vw;margin:0 auto;position:relative;height: calc(100vh);}
+.allGalleryTitle {text-align:center;height:80px;line-height:80px;width:100%;position:relative;}
+.allGalleryTitleSpan {color:#333333;font-family:'GowunDodum-Regular';font-size:4vw;}
+.allGalleryCLOSE {position:absolute;right:0px;top:32px;width:15px;}
+.allGalleryLEFT {position:absolute;LEFT:0px;top:32px;width:9px;}
+
+.allGalleryListIMG{float:left;position:relative;width:44.75vw;}
+.11allGalleryListIMG:nth-child(even){float:right;} 
+
+
+.allGalleryList2_big{width:100%;}
+.allGalleryList2_scroll{position:absolute;left:0;bottom:0;height:130px;width:93vw;padding:15px 0;overflow-y:scroll;}
+.allGalleryListIMG2{height:130px;margin-right:15px;}
+.allGalleryList2_scrollinner{width:2400px;}
+</style>
+<div class="allGallery" style="display: none;">
+  <div class="allGalleryCen">
+    <div class="allGalleryTitle">
+      <span class="allGalleryTitleSpan">사진 전체보기</span>
+      <img src="/skin/wed150/images/slide_close.svg" class="allGalleryCLOSE" onclick="closeAllGallery()">
+      <img src="/skin/wed150/images/leftICON.svg" class="allGalleryLEFT" onclick="backAllGallery()" style="display: none;">
+    </div>
+    <div class="allGalleryList">
+      <img src="/data/1755407160835/crop_A_251005_183019_59436000KLjry8.jpg" style="float:left;" class="allGalleryListIMG" onclick="allGalleryListClick(this)" _status="" _index="1"><img src="/data/1755407160835/crop_A_251005_183034_33391000dxepAP.jpg" style="float:left;margin-left:3.5vw;" class="allGalleryListIMG" onclick="allGalleryListClick(this)" _status="" _index="2"><div style="clear:both;height:3.5vw;">&nbsp;</div><img src="/data/1755407160835/crop_A_251005_183117_99904300QTVfS3.jpg" style="float:left;" class="allGalleryListIMG" onclick="allGalleryListClick(this)" _status="" _index="3"><img src="/data/1755407160835/crop_A_251005_183206_63090600eItCza.jpg" style="float:left;margin-left:3.5vw;" class="allGalleryListIMG" onclick="allGalleryListClick(this)" _status="" _index="4"><div style="clear:both;height:3.5vw;">&nbsp;</div><img src="/data/1755407160835/crop_A_251005_183232_24395400ytwOY8.jpg" style="float:left;" class="allGalleryListIMG" onclick="allGalleryListClick(this)" _status="" _index="5"><img src="/data/1755407160835/crop_A_251005_183247_96727900QCtI6V.jpg" style="float:left;margin-left:3.5vw;" class="allGalleryListIMG" onclick="allGalleryListClick(this)" _status="" _index="6"><div style="clear:both;height:3.5vw;">&nbsp;</div><img src="/data/1755407160835/crop_A_251005_183306_89845100PMpiWk.jpg" style="float:left;" class="allGalleryListIMG" onclick="allGalleryListClick(this)" _status="" _index="7"><img src="/data/1755407160835/crop_A_251005_183324_70213600RJDM7W.jpg" style="float:left;margin-left:3.5vw;" class="allGalleryListIMG" onclick="allGalleryListClick(this)" _status="" _index="8"><div style="clear:both;height:3.5vw;">&nbsp;</div><img src="/data/1755407160835/crop_A_251005_183342_99346200MCpUE8.jpg" style="float:left;" class="allGalleryListIMG" onclick="allGalleryListClick(this)" _status="" _index="9"><img src="/data/1755407160835/crop_A_251005_183407_88089900pQZTUI.jpg" style="float:left;margin-left:3.5vw;" class="allGalleryListIMG" onclick="allGalleryListClick(this)" _status="" _index="10"><div style="clear:both;height:3.5vw;">&nbsp;</div><img src="/data/1755407160835/crop_A_251005_183434_96682600d3parN.jpg" style="float:left;" class="allGalleryListIMG" onclick="allGalleryListClick(this)" _status="" _index="11"><img src="/data/1755407160835/crop_A_251005_183522_00537400fAqMaC.jpg" style="float:left;margin-left:3.5vw;" class="allGalleryListIMG" onclick="allGalleryListClick(this)" _status="" _index="12"><div style="clear:both;height:3.5vw;">&nbsp;</div><img src="/data/1755407160835/crop_A_251005_183543_11346700qYIraZ.jpg" style="float:left;" class="allGalleryListIMG" onclick="allGalleryListClick(this)" _status="" _index="13"><img src="/data/1755407160835/crop_A_251005_183614_97104600zBOwNH.jpg" style="float:left;margin-left:3.5vw;" class="allGalleryListIMG" onclick="allGalleryListClick(this)" _status="" _index="14"><div style="clear:both;height:3.5vw;">&nbsp;</div><img src="/data/1755407160835/crop_A_251005_221637_01147100JiHCBb.jpg" style="float:left;" class="allGalleryListIMG" onclick="allGalleryListClick(this)" _status="" _index="15"> 
+      <div style="clear:both;height:50px;"></div>
+    </div>
+
+    <div class="allGalleryList2" style="display: none;">
+      <div class="allGalleryList2_top">
+        <img src="/skin/sample_img/a4.jpg" class="allGalleryList2_big">
+      </div>
+      <div class="allGalleryList2_scroll">
+        <div class="allGalleryList2_scrollinner">
+      <img src="/data/1755407160835/crop_A_251005_183019_59436000KLjry8.jpg" class="allGalleryListIMG2" onclick="allGalleryListClick2(this)" _status="" _index="1"><img src="/data/1755407160835/crop_A_251005_183034_33391000dxepAP.jpg" class="allGalleryListIMG2" onclick="allGalleryListClick2(this)" _status="" _index="2"><img src="/data/1755407160835/crop_A_251005_183117_99904300QTVfS3.jpg" class="allGalleryListIMG2" onclick="allGalleryListClick2(this)" _status="" _index="3"><img src="/data/1755407160835/crop_A_251005_183206_63090600eItCza.jpg" class="allGalleryListIMG2" onclick="allGalleryListClick2(this)" _status="" _index="4"><img src="/data/1755407160835/crop_A_251005_183232_24395400ytwOY8.jpg" class="allGalleryListIMG2" onclick="allGalleryListClick2(this)" _status="" _index="5"><img src="/data/1755407160835/crop_A_251005_183247_96727900QCtI6V.jpg" class="allGalleryListIMG2" onclick="allGalleryListClick2(this)" _status="" _index="6"><img src="/data/1755407160835/crop_A_251005_183306_89845100PMpiWk.jpg" class="allGalleryListIMG2" onclick="allGalleryListClick2(this)" _status="" _index="7"><img src="/data/1755407160835/crop_A_251005_183324_70213600RJDM7W.jpg" class="allGalleryListIMG2" onclick="allGalleryListClick2(this)" _status="" _index="8"><img src="/data/1755407160835/crop_A_251005_183342_99346200MCpUE8.jpg" class="allGalleryListIMG2" onclick="allGalleryListClick2(this)" _status="" _index="9"><img src="/data/1755407160835/crop_A_251005_183407_88089900pQZTUI.jpg" class="allGalleryListIMG2" onclick="allGalleryListClick2(this)" _status="" _index="10"><img src="/data/1755407160835/crop_A_251005_183434_96682600d3parN.jpg" class="allGalleryListIMG2" onclick="allGalleryListClick2(this)" _status="" _index="11"><img src="/data/1755407160835/crop_A_251005_183522_00537400fAqMaC.jpg" class="allGalleryListIMG2" onclick="allGalleryListClick2(this)" _status="" _index="12"><img src="/data/1755407160835/crop_A_251005_183543_11346700qYIraZ.jpg" class="allGalleryListIMG2" onclick="allGalleryListClick2(this)" _status="" _index="13"><img src="/data/1755407160835/crop_A_251005_183614_97104600zBOwNH.jpg" class="allGalleryListIMG2" onclick="allGalleryListClick2(this)" _status="" _index="14"><img src="/data/1755407160835/crop_A_251005_221637_01147100JiHCBb.jpg" class="allGalleryListIMG2" onclick="allGalleryListClick2(this)" _status="" _index="15"> 
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- 갤러리 종료 -->
+<script>
+function allGalleryListClick2(obj){
+  $('.allGalleryList2_big').attr('src' , $(obj).attr('src'));
+}
+function backAllGallery(){
+  $('.allGalleryList').show();
+  $('.allGalleryList2').hide();
+  $('.allGalleryTitleSpan').fadeIn(100);
+  $('.allGalleryLEFT').fadeOut(100);
+}
+function allGalleryListClick(obj){
+  $('.allGalleryList2_big').attr('src' , $(obj).attr('src'));
+  $('.allGalleryList').hide();
+  $('.allGalleryList2').show();
+  $('.allGalleryLEFT').fadeIn(100);
+  $('.allGalleryTitleSpan').fadeOut(100);
+  return;
+  if($(obj).attr('_status')=='big'){
+    $('.allGalleryListIMG').attr('_status','');
+    $('.allGalleryListIMG').stop().animate({
+      'width' : '44.75vw'
+    },50);
+    return;
+  }
+  allGalleryHe=Number($('.allGalleryListIMG').eq(0).height());
+  allGalleryMG=$('.allGalleryListIMG').eq(0).css('margin-bottom');
+  allGalleryMG=Number(allGalleryMG.replace('px',''));
+  //console.log(allGalleryHe,allGalleryMG)
+
+  var _index=$(obj).attr('_index');
+  if( _index%2==0){
+    var allGallery_index = allGalleryHe * (Math.ceil(_index/2)) + (allGalleryMG * (Math.ceil(_index/2)) );
+    //console.log(222,_index,allGallery_index,allGalleryMG, (Math.ceil(_index/2))  );
+  }else{
+    var allGallery_index = allGalleryHe * (Math.ceil(_index/2)-1) + (allGalleryMG * (Math.ceil(_index/2)-1) );
+    //console.log(111,_index,allGallery_index,allGalleryMG, (allGalleryMG * (Math.ceil(_index/2)-1) )  );
+  }
+  $('.allGalleryListIMG').attr('_status','');
+  $('.allGalleryListIMG').stop().not(obj).animate({
+    'width' : '44.75vw'
+  },0);
+  
+  $(obj).stop().animate({
+    'width' : '93vw'
+  },110,function(){
+    $('.allGalleryList').stop().animate({
+      scrollTop : allGallery_index
+    },200);
+  });
+  $(obj).attr('_status','big');
+}
+</script>
+
+
+
+
+<!-- 오시는길 start -->
+<div style="clear:both">
+  <div style="height:120px;clear:both"></div>
+  <div class="TITLE_EN">LOCATION</div>
+  <div class="TITLE_KR">오시는 길</div>
+  <div style="height:40px;clear:both"></div>
+
+  <div class="location_address" style="text-align:center;color:#8D8D8D;font-family: 'GowunDodum-Regular';font-size:4vw;">경기 수원시 팔달구 효원로 289 (인계동 1124-5)</div>
+  <div class="location_title" style="text-align:center;color:#333;font-family: 'GowunDodum-Regular';font-size:4vw;margin-top:7px;">파티움하우스 수원 (구.제이마리스)  3F 파티움홀</div>
+
+  <div style="height:30px;clear:both"></div>  
+</div>
+<!-- 오시는길 종료 -->
+
+<!-- 맵 -->
+
+  <div style="position:relative;width:90%;margin: 0 auto;">
+    <div class="map" id="map" style="height: 80vw; width: 100%; position: relative; overflow: hidden; background: rgb(248, 249, 250);" tabindex="0"><div style="position: absolute; display: block; margin: 0px; padding: 0px; border: 0px none; top: 0px; left: 0px; overflow: visible; width: 100%; height: 100%; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); z-index: 0; cursor: url(&quot;https://ssl.pstatic.net/static/maps/mantle/2x/openhand.cur&quot;), default;"><div style="position: absolute; display: block; margin: 0px; padding: 0px; border: 0px none; top: 0px; left: 0px; overflow: visible; width: 100%; height: 100%; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); z-index: 0;"><div style="overflow: visible; width: 100%; height: 0px; position: absolute; display: block; margin: 0px; padding: 0px; border: 0px none; top: 0px; left: 0px; z-index: 1; zoom: 1;"><div style="overflow: visible; width: 100%; height: 0px; position: absolute; margin: 0px; padding: 0px; border: 0px none; top: 0px; left: 0px; z-index: 0; user-select: none; zoom: 1; display: none;"><div style="position: absolute; top: 0px; left: 0px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; display: block; width: 0px; height: 0px; overflow: visible; box-sizing: content-box !important;"><div draggable="false" unselectable="on" data-ntranid="NTran-57" style="position: absolute; top: 339px; left: 172px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/17/111787/50898@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" data-ntranid="NTran-58" style="position: absolute; top: 83px; left: 172px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/17/111787/50897@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" data-ntranid="NTran-59" style="position: absolute; top: 595px; left: 172px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/17/111787/50899@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" data-ntranid="NTran-60" style="position: absolute; top: -173px; left: 172px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/17/111787/50896@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" data-ntranid="NTran-61" style="position: absolute; top: -173px; left: 428px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/17/111788/50896@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" data-ntranid="NTran-62" style="position: absolute; top: 595px; left: -84px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/17/111786/50899@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" data-ntranid="NTran-63" style="position: absolute; top: 83px; left: 428px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/17/111788/50897@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" data-ntranid="NTran-64" style="position: absolute; top: 339px; left: -84px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/17/111786/50898@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" data-ntranid="NTran-65" style="position: absolute; top: 339px; left: 428px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/17/111788/50898@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" data-ntranid="NTran-66" style="position: absolute; top: 83px; left: -84px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/17/111786/50897@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" data-ntranid="NTran-67" style="position: absolute; top: 595px; left: 428px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/17/111788/50899@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" style="position: absolute; top: -173px; left: -84px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-68"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/17/111786/50896@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" style="position: absolute; top: -173px; left: 684px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-69"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/17/111789/50896@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" style="position: absolute; top: 595px; left: -340px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-70"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/17/111785/50899@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" style="position: absolute; top: 83px; left: 684px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-71"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/17/111789/50897@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" style="position: absolute; top: 339px; left: -340px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-72"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/17/111785/50898@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" style="position: absolute; top: 339px; left: 684px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-73"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/17/111789/50898@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" style="position: absolute; top: 83px; left: -340px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-74"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/17/111785/50897@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" style="position: absolute; top: 595px; left: 684px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-75"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/17/111789/50899@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" style="position: absolute; top: -173px; left: -340px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-76"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/17/111785/50896@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div></div></div><div style="overflow: visible; width: 100%; height: 0px; position: absolute; margin: 0px; padding: 0px; border: 0px none; top: 0px; left: 0px; z-index: 1; user-select: none; zoom: 1;"><div style="position: absolute; top: 0px; left: 0px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; display: block; width: 0px; height: 0px; overflow: visible; box-sizing: content-box !important;"><div draggable="false" unselectable="on" style="position: absolute; top: 230px; left: 179px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-77"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/15/27946/12724@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" style="position: absolute; top: -26px; left: 179px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-78"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/15/27946/12723@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" style="position: absolute; top: 486px; left: 179px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-79"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/15/27946/12725@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" style="position: absolute; top: -282px; left: 179px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-80"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/15/27946/12722@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" style="position: absolute; top: -282px; left: 435px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-81"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/15/27947/12722@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" style="position: absolute; top: 486px; left: -77px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-83"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/15/27945/12725@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" style="position: absolute; top: -26px; left: 435px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-82"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/15/27947/12723@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" style="position: absolute; top: 230px; left: -77px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-84"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/15/27945/12724@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" style="position: absolute; top: 230px; left: 435px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-85"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/15/27947/12724@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" style="position: absolute; top: -26px; left: -77px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-89"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/15/27945/12723@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" style="position: absolute; top: 486px; left: 435px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-92"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/15/27947/12725@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" style="position: absolute; top: -282px; left: -77px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-94"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/15/27945/12722@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" style="position: absolute; top: -282px; left: 691px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-91"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/15/27948/12722@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" style="position: absolute; top: 486px; left: -333px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-86"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/15/27944/12725@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" style="position: absolute; top: -26px; left: 691px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-87"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/15/27948/12723@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" style="position: absolute; top: 230px; left: -333px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-95"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/15/27944/12724@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" style="position: absolute; top: 230px; left: 691px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-90"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/15/27948/12724@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" style="position: absolute; top: -26px; left: -333px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-96"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/15/27944/12723@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" style="position: absolute; top: 486px; left: 691px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-88"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/15/27948/12725@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div><div draggable="false" unselectable="on" style="position: absolute; top: -282px; left: -333px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; opacity: 1; width: 256px; height: 256px;" data-ntranid="NTran-93"><img draggable="false" unselectable="on" alt="" crossorigin="anonymous" width="256" height="256" src="https://nrbe.pstatic.net/styles/basic/1759397612/15/27944/12722@2x.png?mt=bg.ol.sw.ar.lko" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; opacity: 1; position: absolute; left: 0px; top: 0px; z-index: 0; width: 256px; height: 256px;"></div></div></div><div style="overflow: visible; width: 100%; height: 0px; position: absolute; display: block; margin: 0px; padding: 0px; border: 0px none; top: 0px; left: 0px; z-index: 100;"><div style="overflow: visible; width: 100%; height: 0px; position: absolute; margin: 0px; padding: 0px; border: 0px none; top: 0px; left: 0px; z-index: 101;"></div><div style="overflow: visible; width: 100%; height: 0px; position: absolute; margin: 0px; padding: 0px; border: 0px none; top: 0px; left: 0px; z-index: 103;"><div title="봄카드" style="position: absolute; overflow: hidden; box-sizing: content-box !important; cursor: inherit; left: 389px; top: 305px; width: 22px; height: 33px;"><map name="nmarker-B9C43659-46E4-4D71-A05F-87BAB70775CC"><area href="#" shape="poly" coords="11,0,9,0,6,1,4,2,2,4,0,8,0,12,1,14,2,16,5,19,5,20,6,23,8,26,9,30,9,34,13,34,13,30,14,26,16,23,17,20,17,19,20,16,21,14,22,12,22,12,22,8,20,4,18,2,16,1,13,0" alt="마커의 경위도는 127.033413,37.261593 입니다." style="display: block; cursor: pointer;"></map><img draggable="false" unselectable="on" src="https://ssl.pstatic.net/static/maps/mantle/2x/marker-default.png" alt="" style="margin: 0px; padding: 0px; border: 0px solid transparent; display: block; user-select: none; -webkit-user-drag: none; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; position: absolute; cursor: inherit; width: 22px; height: 33px; left: 0px; top: 0px;"><img src="https://ssl.pstatic.net/static/maps/mantle/2x/dot.gif" alt="" usemap="#nmarker-B9C43659-46E4-4D71-A05F-87BAB70775CC" style="position: absolute; border: 0px; left: 0px; top: 0px; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important; user-select: none; width: 22px; height: 33px;"></div></div><div style="overflow: visible; width: 100%; height: 0px; position: absolute; margin: 0px; padding: 0px; border: 0px none; top: 0px; left: 0px; z-index: 106;"></div></div></div><div style="position: absolute; display: none; margin: 0px; padding: 0px; border: 0px none; top: 0px; left: 0px; overflow: visible; width: 100%; height: 100%; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); background-color: rgb(255, 255, 255); z-index: 10000; opacity: 0.5;"></div></div></div><div style="position: absolute; z-index: 100; margin: 0px; padding: 0px; pointer-events: none; bottom: 0px; right: 0px;"><div style="border: 0px none; margin: -3px 0px 0px; padding: 0px; pointer-events: none; float: right; height: 20px;"><div style="position: relative; width: 79px; height: 14px; margin: 0px 12px 6px 2px; overflow: hidden; pointer-events: auto;"><span style="display: block; margin: 0px; padding: 0px 4px; text-align: center; font-size: 10px; line-height: 11px; font-family: Helvetica, AppleSDGothicNeo-Light, nanumgothic, NanumGothic, 나눔고딕, Dotum, 돋움, sans-serif; font-weight: 700; color: rgb(34, 34, 37); text-shadow: rgba(255, 255, 255, 0.8) -1px 0px, rgba(255, 255, 255, 0.8) 0px 1px, rgba(255, 255, 255, 0.8) 1px 0px, rgba(255, 255, 255, 0.8) 0px -1px;">300m</span><img src="https://ssl.pstatic.net/static/maps/mantle/2x/new-scale-normal-b.png" width="73" height="3" alt="" style="position: absolute; left: 3px; bottom: 0px; z-index: 2; display: block; width: 73px; height: 3px; overflow: hidden; margin: 0px; padding: 0px; border: 0px none; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important;"><img src="https://ssl.pstatic.net/static/maps/mantle/2x/new-scale-normal-l.png" width="3" height="8" alt="" style="position:absolute;left:0;bottom:0;z-index:2;display:block;width:3px;height:8px;overflow:hidden;margin:0;padding:0;border:0 none;max-width:none !important;max-height:none !important;min-width:0 !important;min-height:0 !important;"><img src="https://ssl.pstatic.net/static/maps/mantle/2x/new-scale-normal-r.png" width="3" height="8" alt="" style="position:absolute;right:0;bottom:0;z-index:2;display:block;width:3px;height:8px;overflow:hidden;margin:0;padding:0;border:0 none;max-width:none !important;max-height:none !important;min-width:0 !important;min-height:0 !important;"></div></div><div style="border: 0px none; margin: 0px; padding: 0px; pointer-events: none; float: right;"><a href="https://ssl.pstatic.net/static/maps/mantle/notice/legal.html" target="_blank" style="display: block; width: 45px; height: 10px; overflow: hidden; margin: 0px 5px 7px 12px; pointer-events: auto;"><img src="https://ssl.pstatic.net/static/maps/mantle/2x/new-naver-logo-normal.png" width="45" height="10" alt="NAVER" style="display:block;width:45px;height:10px;overflow:hidden;border:0 none;margin:0;padding:0;max-width:none !important;max-height:none !important;min-width:0 !important;min-height:0 !important;"></a></div></div><div style="position: absolute; z-index: 100; margin: 0px; padding: 0px; pointer-events: none; bottom: 0px; left: 0px;"><div style="border: 0px none; margin: 0px; padding: 0px; pointer-events: none; float: left; height: 21px;"><div class="map_copyright" style="margin: 0px; padding: 0px 0px 2px 10px; height: 19px; line-height: 19px; color: rgb(68, 68, 68); font-family: Helvetica, AppleSDGothicNeo-Light, nanumgothic, NanumGothic, 나눔고딕, Dotum, 돋움, sans-serif; font-size: 11px; clear: both; white-space: nowrap; pointer-events: none;"><div style="float: left;"><span style="white-space: pre; color: rgb(68, 68, 68);">© NAVER Corp.</span></div><a href="#" style="font-family: Helvetica, AppleSDGothicNeo-Light, nanumgothic, NanumGothic, 나눔고딕, Dotum, 돋움, sans-serif; font-size: 11px; line-height: 19px; margin: 0px 0px 0px 5px; padding: 0px; color: rgb(68, 68, 68); float: left; pointer-events: auto; text-decoration: underline; display: none;">더보기</a><div style="float: left;"><a target="_blank" href="http://www.openstreetmap.org/copyright" style="pointer-events: auto; white-space: pre; display: none; color: rgb(68, 68, 68);"> /OpenStreetMap</a></div></div></div></div><div style="border: 1px solid rgb(41, 41, 48); background: rgb(255, 255, 255); padding: 15px; color: rgb(51, 51, 51); position: absolute; font-size: 11px; line-height: 1.5; clear: both; display: none; max-width: 350px !important; max-height: 300px !important;"><h5 style="font-size: 12px; margin-top: 0px; margin-bottom: 10px;">지도 데이터</h5><a href="#" style="position: absolute; top: 8px; right: 8px; width: 14px; height: 14px; font-size: 14px; line-height: 14px; display: block; overflow: hidden; color: rgb(68, 68, 68); text-decoration: none; font-weight: bold; text-align: center;">x</a><div><span style="white-space: pre; color: rgb(68, 68, 68); float: left;">© NAVER Corp.</span><a target="_blank" href="http://www.openstreetmap.org/copyright" style="pointer-events: auto; white-space: pre; color: rgb(68, 68, 68); float: left; display: none;"> /OpenStreetMap</a></div></div><div style="position: absolute; z-index: 100; margin: 0px; padding: 0px; pointer-events: none; top: 0px; left: 0px;"><div style="border: 0px none; margin: 0px; padding: 0px; pointer-events: none; float: left;"><div style="position: relative; z-index: 4; pointer-events: auto;"><div style="position: relative; z-index: 0; width: 28px; margin: 10px; border: 1px solid rgb(68, 68, 68); box-sizing: content-box !important; user-select: none;"><a href="#" style="position: relative; z-index: 2; width: 28px; height: 22px; cursor: pointer; display: block; overflow: hidden; border-bottom: 1px solid rgb(202, 205, 209); box-sizing: content-box !important;"><img src="https://ssl.pstatic.net/static/maps/mantle/2x/zoom-in-large-normal.png" width="28" height="22" alt="지도 확대" style="margin:0;padding:0;border:solid 0 transparent;display:block;box-sizing:content-box !important;max-width:none !important;max-height:none !important;min-width:0 !important;min-height:0 !important;width:28px;height:22px;"></a><div style="position: relative; width: 28px; height: 156px; overflow: hidden; margin: 0px; padding: 7px 0px; background-color: rgb(255, 255, 255); cursor: pointer; box-sizing: content-box !important; display: block;"><div style="position: absolute; top: 7px; bottom: 7px; left: 12px; width: 4px; height: 156px; display: block; background-color: rgb(47, 135, 236);"></div><div style="position: absolute; top: 7px; bottom: 7px; left: 12px; width: 4px; height: 64px; display: block; background-color: rgb(202, 205, 209);"></div><a href="#" style="position: absolute; left: 4px; width: 18px; height: 10px; top: 64px; border: 1px solid rgb(68, 68, 68); cursor: move; display: block; overflow: hidden; box-sizing: content-box !important;"><img src="https://ssl.pstatic.net/static/maps/mantle/2x/zoom-handle.png" width="18" height="10" alt="지도 확대/축소 슬라이더" style="margin:0;padding:0;border:solid 0 transparent;display:block;box-sizing:content-box !important;max-width:none !important;max-height:none !important;min-width:0 !important;min-height:0 !important;width:18px;height:10px;"></a></div><a href="#" style="position: relative; z-index: 2; width: 28px; height: 22px; cursor: pointer; display: block; overflow: hidden; border-top: 1px solid rgb(202, 205, 209); box-sizing: content-box !important;"><img src="https://ssl.pstatic.net/static/maps/mantle/2x/zoom-out-large-normal.png" width="28" height="22" alt="지도 축소" style="margin:0;padding:0;border:solid 0 transparent;display:block;box-sizing:content-box !important;max-width:none !important;max-height:none !important;min-width:0 !important;min-height:0 !important;width:28px;height:22px;"></a><div style="position: absolute; top: 22px; width: 44px; height: 0px; overflow: visible; display: none; left: 36px;"><div style="display: block; margin: 0px; padding: 0px;"><h4 style="visibility:hidden;width:0;height:0;overflow:hidden;margin:0;padding:0;">지도 컨트롤러 범례</h4><div style="position: absolute; top: 43px; left: 0px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; display: block; width: 44px; height: 17px; overflow: hidden; box-sizing: content-box !important; visibility: visible;"><img src="https://ssl.pstatic.net/static/maps/mantle/2x/zoom-legend-right-on.png" alt="" style="position: absolute; top: 0px; left: 0px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; display: block; width: 44px; height: 17px; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important;"><span style="margin: 0px; border: 0px solid transparent; display: block; font-family: Helvetica, AppleSDGothicNeo-Light, nanumgothic, NanumGothic, 나눔고딕, Dotum, 돋움, sans-serif; position: relative; z-index: 2; line-height: 17px; color: rgb(255, 255, 255); font-size: 11px; padding: 0px 0px 0px 4px; text-align: center; letter-spacing: -1px; box-sizing: content-box !important;">부동산</span></div><div style="position: absolute; top: 63px; left: 0px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; display: block; width: 44px; height: 17px; overflow: hidden; box-sizing: content-box !important; visibility: visible;"><img src="https://ssl.pstatic.net/static/maps/mantle/2x/zoom-legend-right-normal.png" alt="" style="position: absolute; top: 0px; left: 0px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; display: block; width: 44px; height: 17px; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important;"><span style="margin: 0px; border: 0px solid transparent; display: block; font-family: Helvetica, AppleSDGothicNeo-Light, nanumgothic, NanumGothic, 나눔고딕, Dotum, 돋움, sans-serif; position: relative; z-index: 2; line-height: 17px; color: rgb(255, 255, 255); font-size: 11px; padding: 0px 0px 0px 4px; text-align: center; letter-spacing: -1px; box-sizing: content-box !important;">거리</span></div><div style="position: absolute; top: 83px; left: 0px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; display: block; width: 44px; height: 17px; overflow: hidden; box-sizing: content-box !important; visibility: visible;"><img src="https://ssl.pstatic.net/static/maps/mantle/2x/zoom-legend-right-normal.png" alt="" style="position: absolute; top: 0px; left: 0px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; display: block; width: 44px; height: 17px; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important;"><span style="margin: 0px; border: 0px solid transparent; display: block; font-family: Helvetica, AppleSDGothicNeo-Light, nanumgothic, NanumGothic, 나눔고딕, Dotum, 돋움, sans-serif; position: relative; z-index: 2; line-height: 17px; color: rgb(255, 255, 255); font-size: 11px; padding: 0px 0px 0px 4px; text-align: center; letter-spacing: -1px; box-sizing: content-box !important;">읍,면,동</span></div><div style="position: absolute; top: 113px; left: 0px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; display: block; width: 44px; height: 17px; overflow: hidden; box-sizing: content-box !important; visibility: visible;"><img src="https://ssl.pstatic.net/static/maps/mantle/2x/zoom-legend-right-normal.png" alt="" style="position: absolute; top: 0px; left: 0px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; display: block; width: 44px; height: 17px; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important;"><span style="margin: 0px; border: 0px solid transparent; display: block; font-family: Helvetica, AppleSDGothicNeo-Light, nanumgothic, NanumGothic, 나눔고딕, Dotum, 돋움, sans-serif; position: relative; z-index: 2; line-height: 17px; color: rgb(255, 255, 255); font-size: 11px; padding: 0px 0px 0px 4px; text-align: center; letter-spacing: -1px; box-sizing: content-box !important;">시,군,구</span></div><div style="position: absolute; top: 143px; left: 0px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; display: block; width: 44px; height: 17px; overflow: hidden; box-sizing: content-box !important; visibility: visible;"><img src="https://ssl.pstatic.net/static/maps/mantle/2x/zoom-legend-right-normal.png" alt="" style="position: absolute; top: 0px; left: 0px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; display: block; width: 44px; height: 17px; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important;"><span style="margin: 0px; border: 0px solid transparent; display: block; font-family: Helvetica, AppleSDGothicNeo-Light, nanumgothic, NanumGothic, 나눔고딕, Dotum, 돋움, sans-serif; position: relative; z-index: 2; line-height: 17px; color: rgb(255, 255, 255); font-size: 11px; padding: 0px 0px 0px 4px; text-align: center; letter-spacing: -1px; box-sizing: content-box !important;">시,도</span></div><div style="position: absolute; top: 163px; left: 0px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; display: block; width: 44px; height: 17px; overflow: hidden; box-sizing: content-box !important; visibility: hidden;"><img src="https://ssl.pstatic.net/static/maps/mantle/2x/zoom-legend-right-normal.png" alt="" style="position: absolute; top: 0px; left: 0px; z-index: 0; margin: 0px; padding: 0px; border: 0px solid transparent; display: block; width: 44px; height: 17px; box-sizing: content-box !important; max-width: none !important; max-height: none !important; min-width: 0px !important; min-height: 0px !important;"><span style="margin: 0px; border: 0px solid transparent; display: block; font-family: Helvetica, AppleSDGothicNeo-Light, nanumgothic, NanumGothic, 나눔고딕, Dotum, 돋움, sans-serif; position: relative; z-index: 2; line-height: 17px; color: rgb(255, 255, 255); font-size: 11px; padding: 0px 0px 0px 4px; text-align: center; letter-spacing: -1px; box-sizing: content-box !important;">국가</span></div></div></div></div></div></div></div></div>
+    <a href="https://m.map.naver.com/directions/?sname=&amp;sy=&amp;sx=&amp;ename=경기 수원시 팔달구 효원로 289 (인계동 1124-5) &amp;ey=37.261593&amp;ex=127.033413" target="_blink" rel="noopener">
+
+    </a>
+  </div>
+  <style>
+.NAV{height:47px;width:90%;margin:0 auto;}
+.NAV_BOX{font-family: 'GowunDodum-Regular';font-size:14PX;TEXT-ALIGN:CENTER;border-radius:10px;color:#333333;border:1px solid #E4E4E4 ;width:31%;height:45px;line-height:45px;}
+.BOX_NAVER{float:left;}
+.BOX_NAVERIMG{WIDTH:20PX;vertical-align:-4px;}
+.BOX_TMAPIMG{WIDTH:22PX;vertical-align:-6px;}
+.BOX_KAKAOIMG{WIDTH:22PX;vertical-align:-6px;}
+.BOX_TMAP{float:left;margin-left:2.5%;}
+.BOX_KAKAO{float:right;}
+</style>
+<div style="height:25px"></div>
+<div class="NAV">
+  <a href="https://map.naver.com/?menu=location&amp;pinType=place&amp;lat=37.261593&amp;lng=127.033413&amp;title=경기 수원시 팔달구 효원로 289 (인계동 1124-5) "><div class="NAV_BOX BOX_NAVER"><img src="/skin/wed150/images/naverICON.png" class="BOX_NAVERIMG">&nbsp;네이버지도</div></a>
+  <a href="https://apis.openapi.sk.com/tmap/app/routes?appKey=l7xxf131c69d9bce4925b36cde90c71b8f1f&amp;name=경기 수원시 팔달구 효원로 289 (인계동 1124-5) &amp;lon=127.033413&amp;lat=37.261593" target="_blank"><div class="NAV_BOX BOX_TMAP"><img src="/skin/wed150/images/tmapICON.png" class="BOX_TMAPIMG">&nbsp;티맵</div></a>
+  <div class="NAV_BOX BOX_KAKAO" onclick="navi()"><img src="/skin/wed150/images/kakaonaviICON.png" class="BOX_KAKAOIMG">&nbsp;카카오내비</div>
+</div>
+
+
+
+<script type="text/javascript">
+  //<![CDATA[
+    // 사용할 앱의 JavaScript 키를 설정해 주세요.
+
+    // 카카오 로그인 버튼을 생성합니다.
+    function navi(){
+        Kakao.Navi.start({
+            name: "경기 수원시 팔달구 효원로 289 (인계동 1124-5) ",
+            x: 127.033413 ,
+            y: 37.261593,
+            coordType: 'wgs84'
+        });
+    }
+  //]]>
+</script>
+      <div style="height:30px;clear:both"></div>
+    <div class="etc_loca_info">
+      <div class="etc_loca_infoINNER">
+
+  <div style="margin-bottom:5px"><span class="subwayICON"><img src="/skin/wed150/images/subwayICON.svg" class="ICONBG">지하철로 오시는 길</span></div>
+  수인분당선 수원시청역 10번 출구 도보 1분  <div style="height:40px"></div>
+  <div style="margin-bottom:5px"><span class="subwayICON"><img src="/skin/wed150/images/carICON.png" class="ICONBG">자가용으로 오시는 길</span></div>
+  경인일보, 파비오더씨타, 경기아트센터 주차장 등 웨딩홀 입구에서 주차요원의 안내를 받고 이동하여 주시길 바랍니다.
+      </div>
+    </div>
+
+
+
+<!--
+<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=AnF781VYdqGRocT6yhqk"></script>
+
+<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=q83llghpq7"></script>
+-->
+<script type="text/javascript" src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=kj283urtud"></script>
+
+<script>
+$(function(){
+  if(document.getElementById('map') != undefined){
+    var map = new naver.maps.Map('map', {
+      center: new naver.maps.LatLng(37.261593, 127.033413),
+      zoomControl: true, //줌 컨트롤의 표시 여부
+      zoom: 17    });
+
+    var marker = new naver.maps.Marker({
+      position: new naver.maps.LatLng(37.261593, 127.033413),
+        /*
+      icon: { // 레티나 디스플레이 대응 마커 아이콘
+        url: '/skin/wed135/images/pointer.png', // 110x72 크기의 원본 이미지
+        size: new naver.maps.Size(60, 60),
+        anchor: new naver.maps.Point(34, 55),
+        origin: new naver.maps.Point(0, 0),
+        scaledSize: new naver.maps.Size(60, 60)
+      },
+      */
+      title : '봄카드' ,
+      map: map
+    });
+    var contentString = [
+      '<div style="padding:5px;">파티움하우스 수원 (구.제이마리스)</div>',
+      '<div style="padding:0 5px 5px 5px;">경기 수원시 팔달구 효원로 289 (인계동 1124-5) </div>'
+    ].join('');
+
+    var infowindow = new naver.maps.InfoWindow({
+      content: contentString
+    });
+    naver.maps.Event.addListener(marker, "click", function(e) {
+      if (infowindow.getMap()) {
+        infowindow.close();
+      } else {
+        infowindow.open(map, marker);
+      }
+    });
+  }
+});
+</script>
+
+
+
+
+
+
+<!-- 구글지도 
+<script async defer src="https://maps.googleapis.com/maps/api/js?v=3.21&key=AIzaSyAaSgGp45O6WG_pA1S49KkAV0v2b_0kMHs&callback=initMap" type="text/javascript"></script>
+
+<script>
+
+  function initMap() {
+    var uluru = {lat: 37.261593, lng: 127.033413};
+    var map = new google.maps.Map(document.getElementById('map_canvas'), {
+    zoom: 17,
+    center: uluru,
+        scrollwheel : false, //마우스 휠로 확대 축소 사용 여부
+        mapTypeControl : false, //맵 타입 컨트롤 사용 여부
+        disableDefaultUI : false, //기본 UI 사용 여부
+        disableDoubleClickZoom : true, //더블클릭 중심으로 확대 사용 여부
+        gestureHandling: 'cooperative'
+    });
+
+    var contentString = '<b>파티움하우스 수원 (구.제이마리스)<br>031-221-3434<br>경기 수원시 팔달구 효원로 289 (인계동 1124-5) </b>';
+
+    var infowindow = new google.maps.InfoWindow({
+    content: contentString
+    });
+    var image = '/skin/wed135/images/pointer.png'; //마커 이미지 설정
+    var marker = new google.maps.Marker({
+    position: uluru,
+    map: map,
+    title: '파티움하우스 수원 (구.제이마리스)',
+    icon : image //마커 이미지
+    });
+    marker.addListener('click', function() {
+    infowindow.open(map, marker);
+    });
+  }
+</script>
+--><div style="height:80px;clear:both"></div>
+<!-- 맵 종료-->
+
+
+
+<!-- 계좌번호 마음 전하기 start -->
+
+
+<style>
+.bank_info {height:40px;clear:both;font-family:'GowunDodum-Regular';text-align:center;color:#333333;font-size:3.7vw;}
+.bankInfoBtn{
+width:90%;margin:0 auto;border:1px solid #CBA9C3;position:relative;
+border-top-left-radius: 10px;border-bottom-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;
+text-align:center;font-family:'GowunDodum-Regular';color:#333333;font-size:3.8vw;height:45px;line-height:45px;background:#FFFFFF;
+}
+.bankInfoBtnICON {
+  background-image:url(/skin/wed150/images/downICON.svg);
+  transition: all .2s;
+  background-color:#fff;background-repeat:no-repeat;background-size:11px auto;
+  position:absolute;left:92.5%;top:19px;
+  width:11px;height:7px;transition: all .2s;
+}
+.bankInfoBtnICON.filter-show {-webkit-transform: rotate(180deg);transform: rotate(180deg);}
+.bank_contents{margin:0 auto;position:relative;top:-1px;
+  text-align:center;color:#333333;font-family: 'GowunDodum-Regular';font-size:4vw;font-size:3.8vw;
+  background-color:#fdfdfd;border:1px solid #CBA9C3;width:90%;
+  border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;line-height:25px;display:none;
+}
+
+.bankTB{width:90%;margin:0 auto;}
+.bankTB tr td{border:1px solid #fdfdfd;font-size:3.8vw;font-family: 'GowunDodum-Regular';background:#fdfdfd;color:#333333;}
+.bankm_name{font-size:4vw;color:#333333;font-family: 'GowunDodum-Regular';}
+.bankm_bname{font-size:4vw;color:#333333;font-family: 'GowunDodum-Regular';margin-top:5px;}
+.bankTitle{color:#8D8D8D;font-family: 'GowunDodum-Regular';}
+
+.copyBtn{display:inline-block;
+font-size:12px;border:1px solid #E4E4E4;color:#333333;background:#fff;border-radius:7px;
+padding:6px 7px 6px 7px;margin-bottom:-10px;
+}
+
+.linkIcon{width:10px;padding-right:5px;}
+</style>
+<script src="/skin/skin_style/clipboard.min.js"></script>
+<div style="background:#FCFAFB;">
+  <div style="height:80px;clear:both"></div>
+  <div class="TITLE_EN">INFORMATION</div>
+  <div class="TITLE_KR">마음 전하기</div>
+  <div style="height:20px;clear:both"></div>
+  <div class="bank_info">참석이 어려우신 분들을 위해 기재하였습니다.<br>너그러운 마음으로 양해 부탁드립니다.</div>
+  <div style="height:60px;clear:both"></div>
+
+    <div class="bankInfoBtn" style="border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;">신랑측 계좌번호 보기<div class="bankInfoBtnICON"></div></div>
+  <div class="bank_contents" style="display: none;">
+    <div style="height:30px;clear:both"></div>
+    <table class="bankTB">
+      <colgroup><col width="60%"><col width="*">
+          </colgroup><tbody><tr>
+        <td class="bankm_name">가형지</td>
+        <td rowspan="2" style="position:relative" align="right" valign="bottom">
+          <div class="copyBtn" data-clipboard-text="22880204040846"><img src="/skin/wed150/images/linkIcon.png" class="linkIcon">계좌번호 복사</div>
+        </td>
+      </tr>
+      <tr height="10"><td colspan="2"></td></tr>
+      <tr>
+        <td colspan="2" class="bankm_bname">국민은행 22880204040846</td>
+      </tr>
+
+    
+          <tr height="50"><td colspan="2"><div style="border-top: 1px dashed #E4E4E4;height:1px;"></div></td></tr>
+
+      <tr>
+        <td class="bankm_name">가재길</td>
+        <td rowspan="2" style="position:relative" align="right" valign="bottom">
+          <div class="copyBtn" data-clipboard-text="13003652054699"><img src="/skin/wed150/images/linkIcon.png" class="linkIcon">계좌번호 복사</div>
+        </td>
+      </tr>
+      <tr height="10"><td colspan="2"></td></tr>
+      <tr>
+        <td colspan="2" class="bankm_bname">농협 13003652054699</td>
+      </tr>
+    
+
+          <tr height="50"><td colspan="2"><div style="border-top: 1px dashed #E4E4E4;height:1px;"></div></td></tr>
+
+      <tr>
+        <td class="bankm_name">이석연</td>
+        <td rowspan="2" style="position:relative" align="right" valign="bottom">
+          <div class="copyBtn" data-clipboard-text="13003456119499"><img src="/skin/wed150/images/linkIcon.png" class="linkIcon">계좌번호 복사</div>
+        </td>
+      </tr>
+      <tr height="10"><td colspan="2"></td></tr>
+      <tr>
+        <td colspan="2" class="bankm_bname">농협 13003456119499</td>
+      </tr>
+    
+    </tbody></table>
+    <div style="height:30px;clear:both"></div>
+  </div>
+  
+
+
+    <div style="height:25px;clear:both"></div>
+  <div class="bankInfoBtn" style="border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;">신부측 계좌번호 보기<div class="bankInfoBtnICON"></div></div>
+  <div class="bank_contents" style="display: none;">
+    <div style="height:30px;clear:both"></div>
+    <table class="bankTB">
+      <colgroup><col width="60%"><col width="*">
+          </colgroup><tbody><tr>
+        <td class="bankm_name">이희은</td>
+        <td rowspan="2" style="position:relative" align="right" valign="bottom">
+          <div class="copyBtn" data-clipboard-text="3333060836903"><img src="/skin/wed150/images/linkIcon.png" class="linkIcon">계좌번호 복사</div>
+        </td>
+      </tr>
+      <tr height="10"><td colspan="2"></td></tr>
+      <tr>
+        <td colspan="2" class="bankm_bname">카카오뱅크 3333060836903</td>
+      </tr>
+    
+          <tr height="50"><td colspan="2"><div style="border-top: 1px dashed #E4E4E4;height:1px;"></div></td></tr>
+
+      <tr>
+        <td class="bankm_name">이동천</td>
+        <td rowspan="2" style="position:relative" align="right" valign="bottom">
+          <div class="copyBtn" data-clipboard-text="3521631118113"><img src="/skin/wed150/images/linkIcon.png" class="linkIcon">계좌번호 복사</div>
+        </td>
+      </tr>
+      <tr height="10"><td colspan="2"></td></tr>
+      <tr>
+        <td colspan="2" class="bankm_bname">농협 3521631118113</td>
+      </tr>
+    
+          <tr height="50"><td colspan="2"><div style="border-top: 1px dashed #E4E4E4;height:1px;"></div></td></tr>
+
+      <tr>
+        <td class="bankm_name">김석순</td>
+        <td rowspan="2" style="position:relative" align="right" valign="bottom">
+          <div class="copyBtn" data-clipboard-text="3333197519741"><img src="/skin/wed150/images/linkIcon.png" class="linkIcon">계좌번호 복사</div>
+        </td>
+      </tr>
+      <tr height="10"><td colspan="2"></td></tr>
+      <tr>
+        <td colspan="2" class="bankm_bname">카카오뱅크 3333197519741</td>
+      </tr>
+        </tbody></table>
+    <div style="height:30px;clear:both"></div>
+  </div>
+  
+
+
+  <div style="height:70px;clear:both"></div>  
+</div>
+
+<script>
+
+$(function(){
+  if(window.clipboardData && clipboardData.setData) {
+    $('.copyBtn').on('click',function() {
+      var str = $(this).data('clipboard-text');
+      window.clipboardData.setData('Text', str);
+      alert('계좌번호 복사 되었습니다.');
+    });
+  } else {
+    // 클립보드 복사
+    var clipboard = new Clipboard('.copyBtn');
+    clipboard.on('success', function(e) {
+      alert('계좌번호 복사 되었습니다.');
+      e.clearSelection();
+    });
+    clipboard.on('error', function(e) {});
+  }
+});
+
+$(function(){
+  $(".bankInfoBtn").click(function(){
+    if($(this).css('border-bottom-right-radius')=='10px'){
+      var radiusPX=  '0px' ;
+      $(this).find('.bankInfoBtnICON').addClass('filter-show');
+    }else{
+      var radiusPX= '10px';
+      $(this).find('.bankInfoBtnICON').removeClass('filter-show');
+    }
+    $(this).stop().animate({
+      'border-bottom-left-radius' : radiusPX,
+      'border-bottom-right-radius' : radiusPX ,
+    },100);
+    $(this).next(".bank_contents").slideToggle(300);
+  });
+});
+</script>
+<!-- 계좌번호 마음 전하기 종료 -->
+
+
+
+
+
+<!-- 방명록 종료-->
+
+
+<!-- 방명록 삭제하기 팝업창 시작 -->
+<div class="GBP1_OBJ GBP_1SHADE"></div>
+<form class="GBP1_OBJ GBP_1" name="wfrm2" id="wfrm2" method="post">
+  <input type="hidden" name="sc_id" value="m">
+  <input type="hidden" name="gt_no" value="">
+
+  <input type="hidden" name="cu_code" value="1755407160835">
+  <div class="GBP1_TOP"><img src="/skin/wed150/images/X_ICON.svg" class="GBP1_TOPX" onclick="hideGBP1()"></div>
+  <div class="GBP1_TITLE">방명록 삭제하기</div>
+  <div style="height:7px"></div>
+  <div class="GBP1_MSG">본인 확인을 위해 비밀번호를 입력해 주세요.</div>
+  <div style="height:40px"></div>
+  <div class="GBP1_CON">
+    <div class="GBP1_step1">
+      <div class="GBP1_CONTT">비밀번호 입력</div>
+      <input type="password" name="gt_passwd" value="" class="GBP_INPUT" placeholder="비밀번호를 입력해 주세요.">
+    </div>
+    <div class="GBP1_step2 GBP1_step2DIV">등록하신 방명록은 삭제 후 복구되지 않습니다.<br>방명록을 삭제하시겠습니까?</div>
+  </div>
+  <div class="GBP1_BTNS GBP1_BTN1 GBP1_step1" onclick="frmCheck2()">확인</div>
+  <div class="GBP1_BTNS GBP1_BTN2 GBP1_step2" onclick="frmCheck3()">삭제하기</div>
+  <div style="height:40px"></div>
+</form>
+<!-- 방명록 삭제하기 팝업창 종료 -->
+
+
+<!-- 방명록 글쓰기 팝업창 시작 -->
+<div class="GBP2_OBJ GBP_2SHADE"></div>
+<form class="GBP2_OBJ GBP_2" name="wfrm" id="wfrm" method="post">
+  <input type="hidden" name="mode" id="mode" value="regi">
+  <input type="hidden" name="sc_id" id="sc_id" value="m">
+  <input type="hidden" name="cu_code" id="cu_code" value="1755407160835">
+  <input type="hidden" name="gt_no2" id="gt_no" value="">
+
+  <div class="GBP2_TOP"><img src="/skin/wed150/images/X_ICON.svg" class="GBP1_TOPX" onclick="hideGBP2()"></div>
+  <div class="GBP2_TITLE">방명록 작성하기</div>
+  <div style="height:7px"></div>
+  <div class="GBP2_MSG">신랑, 신부에게 축하의 마음을 전해주세요.</div>
+  <div style="height:40px"></div>
+  <table class="GBP2_TB">
+    <tbody><tr style="height:40px"><td></td></tr>
+    <tr><td class="GBP2TB_TITLE">이름</td></tr>
+    <tr style="height:7px"><td></td></tr>
+    <tr><td><input type="text" name="gt_name" value="" id="gt_name" class="GBP_INPUT" placeholder="이름을 입력해 주세요."></td></tr>
+    <tr style="height:20px"><td></td></tr>
+    <tr><td class="GBP2TB_TITLE">내용</td></tr>
+    <tr style="height:7px"><td></td></tr>
+    <tr><td><textarea name="memo" id="memo" value="" class="GBP_INPUT2" rows="4" placeholder="축하 메시지를 100자 이내로 입력해 주세요.
+이모티콘 입력시 오류가 있을 수 있습니다."></textarea></td></tr>
+    <tr style="height:20px"><td></td></tr>
+    <tr class="GBP2TB_HE"><td></td></tr>
+    <tr><td class="GBP2TB_TITLE">비밀번호 입력</td></tr>
+    <tr style="height:7px"><td></td></tr>
+    <tr><td><input type="password" name="gt_passwd2" id="gt_passwd2" value="" class="GBP_INPUT" placeholder="비밀번호를 입력해 주세요."></td></tr>
+    <tr style="height:30px"><td></td></tr>
+  </tbody></table>
+  <div class="GBP1_BTNS GBP2_BTN1" onclick="frmCheck()">저장하기</div>
+  <div style="height:40px"></div>
+</form>
+<!-- 방명록 글쓰기 팝업창 종료 -->
+
+
+
+
+
+<!-- 공유하기 -->
+<div class="_BOTTOM">
+  <div style="height:30px;clear:both"></div>
+  <a href="javascript:KakaoLink();">
+    <div class="_BOTTOM_KAKA"><img src="/skin/wed150/images/talkICON.png" style="width:13px;">&nbsp;카카오톡으로 공유하기</div>
+  </a>
+  <div style="height:40px;clear:both"></div>
+  <div class="_BOTTOM_INFO">Copyright 2025. BOMCARD. All rights reserved.</div>
+  <div style="height:15px;clear:both"></div>
+</div>
+<!-- 공유하기 종료 -->
+
+
+
+<script type="text/javascript" src="/skin/skin_style/kakao.link.js"></script>
+<script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+
+<script type="text/javascript">
+Kakao.init('29c0edb65e41de960299433e8d80d40a');
+function KakaoLink() {
+  Kakao.Link.sendDefault({
+    //objectType: 'feed',
+    objectType: 'location',
+    address: "경기 수원시 팔달구 효원로 289 (인계동 1124-5)",
+    
+    addressTitle: "",
+    content: {
+      title: "결혼합니다\n[형지♡희은]",
+      description: "2025년 11월 22일 15시 파티움하우스 수원 (구.제이마리스) 3F 파티움홀",
+      imageUrl: "https://m.bomtvcard.com/data/1755407160835/crop_KK_251005_183906_05604900sT3MXw.jpg",
+      imageWidth : 1320,
+      imageHeight : 693,
+      link: {
+        mobileWebUrl: 'https://m.bomtvcard.com/?1755407160835',
+        webUrl: 'https://m.bomtvcard.com/?1755407160835'
+      },
+    },
+/*
+    social: {
+      likeCount: 286,
+      commentCount: 45,
+      sharedCount: 845
+    },
+*/
+
+    buttons: [{
+        title: '초대장 바로가기',
+        link: {
+        mobileWebUrl: 'https://m.bomtvcard.com/?1755407160835',
+        webUrl: 'https://m.bomtvcard.com/?1755407160835'
+      }
+    }]
+  });
+}
+
+function KakaoNavi() {
+  Kakao.Navi.start({
+    name: "파티움하우스 수원 (구.제이마리스)",
+    x: 127.033413,
+    y: 37.261593,
+    coordType: 'wgs84'
+  });
+}
+function sendFaceBook(title,url) {
+  document.location.href = "http://www.facebook.com/sharer.php?u=" + url + "&t=" + encodeURIComponent(title);
+}
+$(function(){
+  $('.player_btn , .player_pbtn').click(function(){
+    if($(this).attr('href')){
+      var a_url = $(this).attr('href');
+    }else{
+      var a_url = $(this).parents('a').attr('href');
+    }
+    
+    var url_arr = a_url.split('/');
+    if(url_arr.pop().substr(0 , 1) == 'p'){
+      type = 1;
+    }else{
+      type = 0; 
+    }
+    
+    $.ajax({
+      url : '/_tongji_movie.php' ,
+      type : 'post' ,
+      async : false ,
+      data : 'type=' + type + '&cu_code=1755407160835&skin=m001'
+    });
+
+  });
+});
+</script>
+
+<script>
+function hideGBP1(){
+  $('.GBP1_OBJ').hide();
+}
+function hideGBP2(){
+  $('.GBP2_OBJ').hide();
+}
+function showGBP2(){
+  $('.GBP2_OBJ').show();
+}
+function deleteClick(no){
+  var f = document.wfrm2;
+  f.gt_no.value=no;
+  $('.GBP1_step2').hide();
+  $('.GBP1_MSG').html('본인 확인을 위해 비밀번호를 입력해 주세요.');
+  $('.GBP1_OBJ,.GBP1_step1').show();
+}
+function frmCheck2(){
+  var f = document.wfrm2;
+  if(f.gt_passwd.value==''){
+    alert('비밀번호를 입력해주세요.');
+    f.gt_passwd.focus();
+    return;   
+  }
+  $('.GBP1_MSG').html('본인 확인을 위해 비밀번호를 입력해 주세요.');
+  //console.log('&mode=delchk&sc_id=' + f.sc_id.value + '&cu_code=' + f.cu_code.value + '&gt_no=' + f.gt_no.value + '&re_passwd='+f.gt_passwd.value);
+  $.ajax({
+    type: "POST",
+    url: "/skin/guest_proc.php",
+    cache: false,
+    data: '&mode=delchk&sc_id=' + f.sc_id.value + '&cu_code=' + f.cu_code.value + '&gt_no=' + f.gt_no.value + '&re_passwd='+f.gt_passwd.value,
+    success: function(data , status){
+      //console.log(data,status);
+      data = $.trim(data);
+      switch(data) {
+        case '100' : $('.GBP1_MSG').html('필수항목이 누락되었습니다.'); break;
+        case '120' : $('.GBP1_MSG').html('삭제할 글이 없습니다.'); break;
+        case '110' : $('.GBP1_MSG').html('시스템 에러입니다.'); break;
+        case '130' : $('.GBP1_MSG').html('비밀번호가 일치하지 않습니다.'); break;
+        case '000' :
+          $('.GBP1_step1').hide();
+          $('.GBP1_step2').show();
+          break;
+        default : //alert( '잘못된 접근입니다.\n\n' + msg ); 
+        break;
+      }
+    },
+    error: function(data,status){
+      console.log(data,'error :'+status);
+    }
+  });
+}
+function frmCheck3(){
+  var f = document.wfrm2;
+  if(f.gt_passwd.value==''){
+    alert('비밀번호를 입력해주세요.');
+    f.gt_passwd.focus();
+    return;   
+  }
+  $('.GBP1_MSG').html('본인 확인을 위해 비밀번호를 입력해 주세요.');
+  $.ajax({
+    type: "POST",
+    url: "/skin/guest_proc.php",
+    cache: false,
+    data: '&mode=del&sc_id=' + f.sc_id.value + '&cu_code=' + f.cu_code.value + '&gt_no=' + f.gt_no.value + '&re_passwd='+f.gt_passwd.value,
+    success: function(data , status){
+      
+      data = $.trim(data);
+      switch(data) {
+        case '100' : $('.GBP1_MSG').html('필수항목이 누락되었습니다.'); break;
+        case '120' : $('.GBP1_MSG').html('삭제할 글이 없습니다.'); break;
+        case '110' : $('.GBP1_MSG').html('시스템 에러입니다.'); break;
+        case '130' : $('.GBP1_MSG').html('비밀번호가 일치하지 않습니다.'); break;
+        case '000' : alert('성공적으로 삭제되었습니다.');location.reload(); break;
+        default : //alert( '잘못된 접근입니다.\n\n' + msg ); 
+        break;
+      }
+    },
+    error: function(data,status){
+      console.log(data,'error :'+status);
+    }
+  });
+}
+function frmCheck() {
+  if(!$('#gt_name').val()){
+    alert('이름을 입력해주세요.');
+    $('#gt_name').focus();
+    return;
+  } 
+
+  if(!$('#memo').val()){
+    alert('축하 메시지를 입력해 주세요.');
+    $('#memo').focus();
+    return;
+  } 
+  if(!$('#gt_passwd2').val()){
+    alert('비밀번호를 입력해주세요.');
+    $('#gt_passwd2').focus();
+    return;
+  } 
+  var formData = $("#wfrm").serialize();
+  $.ajax({
+    type: "POST",
+    url: "/skin/guest_proc.php",
+    cache: false,
+    contentType: "application/x-www-form-urlencoded; charset=euc-kr", 
+    data: formData,
+    success: function(data , status){
+      //console.log(data);return false;
+      data = $.trim(data);
+      switch(data) {
+        case '100' : alert('필수항목이 누락되었습니다.'); break;
+        case '110' : alert('시스템 에러입니다.'); break;
+        case '000' : alert('등록되었습니다.');location.reload(); break;
+        default : 
+          location.reload();
+        //alert( '잘못된 접근입니다.\n\n' + msg ); 
+        break;
+      }
+    },
+    error: function(data,status){
+      console.log(data,'error :'+status);
+    }
+  });
+  
+}
+$(function(){
+  var $clientHeight=Number(document.body.clientHeight);
+  var $CALLHeight=Number($('.CALL').height());
+  if( $clientHeight > $CALLHeight )$('.CALL').css('top' , ($clientHeight - $CALLHeight)/2 + 'px');
+});
+function hideCall(){
+  $('.CALL_SHADE,.CALL').hide();
+}
+function showCall(){
+  $('.CALL_SHADE,.CALL').show();
+}
+</script>
+
+
+<style>
+@media (min-width:640px){
+  body {
+  max-width: 640px;
+  margin: 0 auto;
+  }
+  .wd_date {
+  font-size: 39.3px !important;
+  }
+  .wd_YOIL {
+  font-size: 29.475px !important;
+  }
+  .main_img_icon1 {
+    width: 256px !important;
+  }
+  .main_img_icon2 {
+  width: 256px !important;
+  }
+  .wd_names {
+  font-size: 39.3px !important;
+  }
+  .wd_info {
+  font-size: 26.2px !important;
+  }
+  .video_container {
+  width: 556.75px !important;
+  }
+  .detail_t {
+  font-size: 24.235px !important;
+  }
+  ._ps3 {
+  font-size: 31.44px !important;
+  }
+  body > div:nth-child(8) > div.p_name_wrap > table > tbody > tr:nth-child(3) > td > span:nth-child(3), body > div:nth-child(8) > div.p_name_wrap > table > tbody > tr:nth-child(2) > td > span:nth-child(3) {
+  font-size: 31.44px !important;
+  }
+
+  .TITLE_EN{
+  font-size:19.65px !important;
+  }
+  #invitation > div.TITLE_KR, .TITLE_KR {
+  font-size:29.475px !important;
+  }
+  #invitation > div.invitation_txt {
+  font-size: 26.2px !important;
+  }
+  .nameTB tr td {
+  font-size: 31.44px !important;
+  }
+  .collBtn {
+  font-size: 26.2px !important;
+    width: 531.188px !important;
+  }
+  div.p_name2{
+  font-size: 26.2px !important;
+  margin:0 auto !important;
+  }
+  .p_name2_span, .p_name2_span2{
+  font-size: 22.2px !important; 
+  }
+  .CALL {
+    width: 576px !important;
+    left: 0 !important;
+  right: 0 !important;
+  margin: auto !important;
+  }
+  .CALL_TITLE {
+  font-size: 29.52px !important;
+  }
+  .CALL_TITLE2 {
+  font-size: 22.96px !important;
+  }
+  .CALL_TB tr td {
+  font-size: 26.2px !important;
+  }
+  .TITLE_KR2 {
+  font-size: 32.85px !important;
+  }
+  .cal tr td {
+  font-size: 26.28px !important;
+  }
+  #div_calendar > table > tbody > tr:nth-child(1) > th{
+  width: 74.0156px !important;
+  font-size: 26.28px !important;
+  }
+  #div_calendar > table > tbody > tr > td.content_img > div {
+    width: 52.4px !important;
+    height: 52.4px !important;
+    line-height: 52.4px !important;
+    font-size: 26.2px !important;
+  }
+  .cal_info2, .cal_info2 span {
+  font-size: 26.2px !important;
+  }
+  body > div.swiper-container.swiper-container-initialized.swiper-container-horizontal.swiper-container-pointer-events {
+  padding-bottom: 51.24px !important;
+  }
+  .swiper-wrapper div {
+  height: 580px !important;
+  }
+  body > div:nth-child(27) > div:nth-child(5), body > div:nth-child(27) > div:nth-child(6){
+  font-size: 26.2px !important;
+  }
+  .etc_loca_info .etc_loca_infoINNER {
+  font-size: 24.235px !important;
+  }
+  .etc_loca_info .subwayICON {
+  font-size: 26.2px !important;
+  }
+  .ICONBG{
+  top: 9px !important;
+  }
+  div.bank_info, .etc_loca_infoINNER_in{
+  font-size: 24.235px !important;
+  }
+  .bankInfoBtn {
+  width: 575.094px !important; 
+    font-size: 24.852px !important;
+  }
+  body > div:nth-child(40) > div:nth-child(7), body > div:nth-child(40) > div:nth-child(10),  {
+  width: 576px !important;
+    font-size: 24.89px !important;
+  }
+  #guestbook > div:nth-child(2) > div > table > tbody > tr:nth-child(2) > td span, #guestbook > div:nth-child(2) > div > table > tbody > tr:nth-child(4) > td {
+  font-size: 24.235px !important;
+  }
+  #guestbook > div.collBtn, #guestbook > a > div, body > div.collBtn {
+  font-size: 26.2px !important;
+    width: 531.188px !important;
+  }
+  body > div._BOTTOM > a > div {
+  font-size: 26.2px !important;
+  }
+  body > div._BOTTOM > a > div > img {
+  width: 24px !important;
+  }
+  .location_address, .location_title {
+  font-size: 26.2px !important;
+  }
+  .bankm_name, .bankm_bname {
+  font-size: 24.89px !important;
+  }
+  .GBP_2 {
+  width: 544px;
+    left: 0 !important;
+  right: 0 !important;
+  margin: auto !important;
+  }
+  .GBP2_TITLE {
+  font-size:31.44px !important;
+  }
+  .GBP2_MSG {
+  font-size:23.58px !important;
+  }
+  .GBP2TB_TITLE, .GBP_INPUT, .GBP_INPUT2, .gt_passwd2 {
+  font-size:23.58px !important;
+  }
+  .GBP1_BTNS {
+  font-size: 26.2px !important;
+    width: 476.094px !important;
+  }
+  .map {
+  height:524px !important;
+  }
+}
+</style>
+</body></html>
