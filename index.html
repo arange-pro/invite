@@ -520,27 +520,6 @@ function allGalleryListClick(obj){
   <div class="NAV_BOX BOX_KAKAO" onclick="KakaoNavi()"><img src="https://m.bomtvcard.com/skin/wed150/images/kakaonaviICON.png" class="BOX_KAKAOIMG">&nbsp;카카오내비</div>
 </div> 
 
-<script type="text/javascript">
-  //<![CDATA[
-    // 사용할 앱의 JavaScript 키를 설정해 주세요.
-
-    // 카카오 로그인 버튼을 생성합니다.
-    function navi(){
-      Kakao.init('75d5c0588dbd919b9601556f90987dda');
-      Kakao.isInitialized();
-        Kakao.Navi.start({
-            name: "서울특별시 중구 인현동2가 마른내로 71 ",
-            x: 126.99569038447363,
-            y: 37.564821337847675,
-            coordType: 'wgs84'
-        });
-    }
-  //]]>
-</script>
-
-  <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
-
-
       <div style="height:30px;clear:both"></div>
     <div class="etc_loca_info">
       <div class="etc_loca_infoINNER">
@@ -921,7 +900,6 @@ $(function(){
 <script src="https://developers.kakao.com/sdkjs/kakao.min.js"></script>
 
 <script type="text/javascript">
-Kakao.init('29c0edb65e41de960299433e8d80d40a');
 function KakaoLink() {
 //   Kakao.Link.sendDefault({
 //     //objectType: 'feed',
@@ -959,12 +937,13 @@ function KakaoLink() {
 }
 
 function KakaoNavi() {
-  Kakao.Navi.start({
-    name: "파티움하우스 수원 (구.제이마리스)",
-    x: 127.033413,
-    y: 37.261593,
-    coordType: 'wgs84'
-  });
+      Kakao.init('75d5c0588dbd919b9601556f90987dda');
+        Kakao.Navi.start({
+            name: "서울특별시 중구 인현동2가 마른내로 71 ",
+            x: 126.99569038447363,
+            y: 37.564821337847675,
+            coordType: 'wgs84'
+        });
 }
 function sendFaceBook(title,url) {
   document.location.href = "http://www.facebook.com/sharer.php?u=" + url + "&t=" + encodeURIComponent(title);
