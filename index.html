@@ -505,19 +505,17 @@ function allGalleryListClick(obj){
   </div>
   <style>
 .NAV{height:47px;width:90%;margin:0 auto;}
-.NAV_BOX{font-family: 'GowunDodum-Regular';font-size:14PX;TEXT-ALIGN:CENTER;border-radius:10px;color:#333333;border:1px solid #E4E4E4 ;width:31%;height:45px;line-height:45px;}
-.BOX_NAVER{float:left;}
+.NAV_BOX{font-family: 'GowunDodum-Regular';font-size:14PX;TEXT-ALIGN:CENTER;border-radius:10px;color:#333333;border:1px solid #E4E4E4 ;width:100%;height:45px;line-height:45px;}
+.BOX_NAVER{  }
 .BOX_NAVERIMG{WIDTH:20PX;vertical-align:-4px;}
 .BOX_TMAPIMG{WIDTH:22PX;vertical-align:-6px;}
 .BOX_KAKAOIMG{WIDTH:22PX;vertical-align:-6px;}
-.BOX_TMAP{float:left;margin-left:2.5%;}
+.BOX_TMAP{float:left}
 .BOX_KAKAO{float:right;}
 </style>
 <div style="height:25px"></div>
 <div class="NAV">
   <a href="https://map.naver.com/?menu=location&amp;pinType=place&amp;lat=37.564821337847675&amp;lng=126.99569038447363&amp;title=서울특별시 중구 인현동2가 마른내로 71 "><div class="NAV_BOX BOX_NAVER"><img src="https://m.bomtvcard.com/skin/wed150/images/naverICON.png" class="BOX_NAVERIMG">&nbsp;네이버지도</div></a>
-  <a href="https://apis.openapi.sk.com/tmap/app/routes?appKey=l7xxf131c69d9bce4925b36cde90c71b8f1f&amp;name=서울특별시 중구 인현동2가 마른내로 71 &amp;lon=126.99569038447363&amp;lat=37.564821337847675" target="_blank"><div class="NAV_BOX BOX_TMAP"><img src="https://m.bomtvcard.com/skin/wed150/images/tmapICON.png" class="BOX_TMAPIMG">&nbsp;티맵</div></a>
-  <div class="NAV_BOX BOX_KAKAO" onclick="KakaoNavi()"><img src="https://m.bomtvcard.com/skin/wed150/images/kakaonaviICON.png" class="BOX_KAKAOIMG">&nbsp;카카오내비</div>
 </div> 
 
 <script type="text/javascript">
@@ -543,10 +541,11 @@ function allGalleryListClick(obj){
   충무로역 8번 출구(셔틀 가능) <div style="height:40px"></div>
   <div style="margin-bottom:5px"><span class="subwayICON"><img src="https://m.bomtvcard.com/skin/wed150/images/carICON.png" class="ICONBG">자가용으로 오시는 길</span></div>
   을지트윈타워 주차장 (서울 중구 을지로 170)
+  <div style="height:20px"></div>
+    <a href="https://apis.openapi.sk.com/tmap/app/routes?appKey=l7xxf131c69d9bce4925b36cde90c71b8f1f&amp;name=을지트윈타워 주차장입구 &amp;lon=126.99775602819773&amp;lat=37.56578320855582" target="_blank"><div class="NAV_BOX BOX_TMAP" style="position:relative;width:48%;"><img src="https://m.bomtvcard.com/skin/wed150/images/tmapICON.png" class="BOX_TMAPIMG">&nbsp;티맵</div></a>
+  <div class="NAV_BOX BOX_KAKAO" style="position:relative;width:48%;" onclick="KakaoNavi()"><img src="https://m.bomtvcard.com/skin/wed150/images/kakaonaviICON.png" class="BOX_KAKAOIMG">&nbsp;카카오내비</div>
       </div>
     </div>
-
-
 
 <!--
 <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=AnF781VYdqGRocT6yhqk"></script>
@@ -952,10 +951,11 @@ function KakaoLink() {
 }
 
 function KakaoNavi() {
+  
   Kakao.Navi.start({
-            name: "서울특별시 중구 인현동2가 마른내로 71 ",
-            x: 126.99569038447363,
-            y: 37.564821337847675,
+            name: "을지트윈타워 주차장입구",
+            x: 126.99775602819773,
+            y: 37.56578320855582,
             coordType: 'wgs84'
   });
 }
