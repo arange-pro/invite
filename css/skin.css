@@ -44,7 +44,7 @@ body {
 }
 @font-face {
     font-family: 'GowunDodum-Regular';
-    src: url('/skin/skin_style/fonts/GowunDodum-Regular.ttf') format('truetype');
+    src: url('https://arange-pro.github.io/css/skin/skin_style/fonts/GowunDodum-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
