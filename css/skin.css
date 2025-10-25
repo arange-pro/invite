@@ -15,9 +15,8 @@ body {
 
 @font-face {
 	font-family: 'MaruBuri-Regular';
-    src: url('/skin/skin_style/fonts/MaruBuri-Regular.otf');
-    src: url('/skin/skin_style/fonts/MaruBuri-Regular.woff') format('woff'),
-         url('/skin/skin_style/fonts/MaruBuri-Regular.ttf') format('truetype');
+    src: url('https://arange-pro.github.io/invite/skin/skin_style/fonts/MaruBuri-Regular.otf');
+    src: url('https://arange-pro.github.io/invite/skin/skin_style/fonts/MaruBuri-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -44,7 +43,7 @@ body {
 }
 @font-face {
     font-family: 'GowunDodum-Regular';
-    src: url('https://arange-pro.github.io/css/skin/skin_style/fonts/GowunDodum-Regular.ttf') format('truetype');
+    src: url('https://arange-pro.github.io/invite/skin/skin_style/fonts/GowunDodum-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
