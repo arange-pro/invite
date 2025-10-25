@@ -526,6 +526,8 @@ function allGalleryListClick(obj){
 
     // 카카오 로그인 버튼을 생성합니다.
     function navi(){
+      Kakao.init('75d5c0588dbd919b9601556f90987dda');
+      Kakao.isInitialized();
         Kakao.Navi.start({
             name: "서울특별시 중구 인현동2가 마른내로 71 ",
             x: 126.99569038447363,
@@ -535,6 +537,10 @@ function allGalleryListClick(obj){
     }
   //]]>
 </script>
+
+  <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+
+
       <div style="height:30px;clear:both"></div>
     <div class="etc_loca_info">
       <div class="etc_loca_infoINNER">
