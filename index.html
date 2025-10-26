@@ -55,7 +55,7 @@ html { -ms-content-zooming: none; -ms-touch-action: pan-x pan-y; touch-action: p
   <div style="height:50px"></div>
   <div class="title_box_wrap_3">
     <div class="wd_names">동환<div class="wd_line" style="height:15px"></div>연진</div>
-    <div class="wd_info">PJ호텔 뮤즈홀</div>
+    <div class="wd_info">PJ호텔 1층 뮤즈홀</div>
   </div>
   <div style="clear:both;height:50px"></div>
 </div>
@@ -492,7 +492,7 @@ function allGalleryListClick(obj){
   <div style="height:40px;clear:both"></div>
 
   <div class="location_address" style="text-align:center;color:#8D8D8D;font-family: 'GowunDodum-Regular';font-size:4vw;">서울특별시 중구 인현동2가 마른내로 71</div>
-  <div class="location_title" style="text-align:center;color:#333;font-family: 'GowunDodum-Regular';font-size:4vw;margin-top:7px;">PJ호텔 뮤즈홀</div>
+  <div class="location_title" style="text-align:center;color:#333;font-family: 'GowunDodum-Regular';font-size:4vw;margin-top:7px;">PJ호텔 1층 뮤즈홀</div>
 
   <div style="height:30px;clear:both"></div>  
 </div>
@@ -898,13 +898,13 @@ $(function(){
 
 
 <!-- 공유하기 -->
-<!-- <div class="_BOTTOM">
+<div class="_BOTTOM">
   <div style="height:30px;clear:both"></div>
   <a href="javascript:KakaoLink();">
     <div class="_BOTTOM_KAKA"><img src="https://m.bomtvcard.com/skin/wed150/images/talkICON.png" style="width:13px;">&nbsp;카카오톡으로 공유하기</div>
   </a>
   <div style="height:40px;clear:both"></div>
-</div> -->
+</div>
 <!-- 공유하기 종료 -->
 
 
@@ -915,39 +915,39 @@ $(function(){
 <script type="text/javascript">
 Kakao.init('75d5c0588dbd919b9601556f90987dda');
 function KakaoLink() {
-//   Kakao.Link.sendDefault({
-//     //objectType: 'feed',
-//     objectType: 'location',
-//     address: "경기 수원시 팔달구 효원로 289 (인계동 1124-5)",
+  Kakao.Link.sendDefault({
+    //objectType: 'feed',
+    objectType: 'location',
+    address: "서울특별시 중구 인현동2가 마른내로 71",
     
-//     addressTitle: "",
-//     content: {
-//       title: "결혼합니다\n[동환♡연진]",
-//       description: "2026년 01월 31일 15시 30분 PJ호텔 뮤즈홀",
-//       imageUrl: "https://m.bomtvcard.com/data/1755407160835/crop_KK_251005_183906_05604900sT3MXw.jpg",
-//       imageWidth : 1320,
-//       imageHeight : 693,
-//       link: {
-//         mobileWebUrl: 'https://m.bomtvcard.com/?1755407160835',
-//         webUrl: 'https://m.bomtvcard.com/?1755407160835'
-//       },
-//     },
-// /*
-//     social: {
-//       likeCount: 286,
-//       commentCount: 45,
-//       sharedCount: 845
-//     },
-// */
+    addressTitle: "",
+    content: {
+      title: "결혼합니다\n[동환♡연진]",
+      description: "2026년 01월 31일 15시 30분 PJ호텔 1층 뮤즈홀",
+      imageUrl: "https://arange-pro.github.io/invite/data/main.jpg",
+      imageWidth : 1320,
+      imageHeight : 693,
+      link: {
+        mobileWebUrl: 'https://arange-pro.github.io/invite/',
+        webUrl: 'https://arange-pro.github.io/invite/'
+      },
+    },
+/*
+    social: {
+      likeCount: 286,
+      commentCount: 45,
+      sharedCount: 845
+    },
+*/
 
-//     buttons: [{
-//         title: '초대장 바로가기',
-//         link: {
-//         mobileWebUrl: 'https://m.bomtvcard.com/?1755407160835',
-//         webUrl: 'https://m.bomtvcard.com/?1755407160835'
-//       }
-//     }]
-//   });
+    buttons: [{
+        title: '초대장 바로가기',
+        link: {
+        mobileWebUrl: 'https://m.bomtvcard.com/?1755407160835',
+        webUrl: 'https://m.bomtvcard.com/?1755407160835'
+      }
+    }]
+  });
 }
 
 function KakaoNavi() {
