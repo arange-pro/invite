@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <rect width="30" height="30" fill="none"></rect>
+
+  <!-- 차체 -->
+  <rect x="6" y="2" width="18" height="19" rx="4" fill="#e3d3df"></rect>
+
+  <!-- 전면 창 -->
+  <rect x="9" y="5" width="12" height="7" rx="2" fill="#ffffff"></rect>
+
+  <!-- 헤드라이트 -->
+  <circle cx="9" cy="17" r="1.2" fill="#ffffff"></circle>
+  <circle cx="21" cy="17" r="1.2" fill="#ffffff"></circle>
+
+  <!-- 바퀴 (차체에 붙여서) -->
+  <circle cx="10" cy="21" r="2.4" fill="#e3d3df"></circle>
+  <circle cx="20" cy="21" r="2.4" fill="#e3d3df"></circle>
+</svg>
