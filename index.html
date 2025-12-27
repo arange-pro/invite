@@ -680,6 +680,98 @@ padding:6px 7px 6px 7px;margin-bottom:-10px;
 </style>
 <script src="skin_style/clipboard.min.js"></script>
 
+<!-- 계좌번호 마음 전하기 start -->
+
+<div style="height:30px;clear:both"></div>
+<style>
+.bank_info {height:40px;clear:both;font-family:'GowunDodum-Regular';text-align:center;color:#333333;font-size:3.7vw;}
+.bankInfoBtn{
+width:90%;margin:0 auto;border:1px solid #CBA9C3;position:relative;
+border-top-left-radius: 10px;border-bottom-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;
+text-align:center;font-family:'GowunDodum-Regular';color:#333333;font-size:3.8vw;height:45px;line-height:45px;background:#FFFFFF;
+}
+.bankInfoBtnICON {
+  background-image:url(https://m.bomtvcard.com/skin/wed150/images/downICON.svg);
+  transition: all .2s;
+  background-color:#fff;background-repeat:no-repeat;background-size:11px auto;
+  position:absolute;left:92.5%;top:19px;
+  width:11px;height:7px;transition: all .2s;
+}
+.bankInfoBtnICON.filter-show {-webkit-transform: rotate(180deg);transform: rotate(180deg);}
+.bank_contents{margin:0 auto;position:relative;top:-1px;
+  text-align:center;color:#333333;font-family: 'GowunDodum-Regular';font-size:4vw;font-size:3.8vw;
+  background-color:#fdfdfd;border:1px solid #CBA9C3;width:90%;
+  border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;line-height:25px;display:none;
+}
+
+.bankTB{width:90%;margin:0 auto;}
+.bankTB tr td{border:1px solid #fdfdfd;font-size:3.8vw;font-family: 'GowunDodum-Regular';background:#fdfdfd;color:#333333;}
+.bankm_name{font-size:4vw;color:#333333;font-family: 'GowunDodum-Regular';}
+.bankm_bname{font-size:4vw;color:#333333;font-family: 'GowunDodum-Regular';margin-top:5px;}
+.bankTitle{color:#8D8D8D;font-family: 'GowunDodum-Regular';}
+
+.copyBtn{display:inline-block;
+font-size:12px;border:1px solid #E4E4E4;color:#333333;background:#fff;border-radius:7px;
+padding:6px 7px 6px 7px;margin-bottom:-10px;
+}
+
+.linkIcon{width:10px;padding-right:5px;}
+</style>
+<script src="/skin_style/clipboard.min.js"></script>
+<div style="background:#FCFAFB;">
+  <div style="height:30px;clear:both"></div>
+  <div class="TITLE_EN">INFORMATION</div>
+  <div class="TITLE_KR">마음 전하기</div>
+  <div style="height:20px;clear:both"></div>
+  <div class="bank_info">참석이 어려우신 분들을 위해 기재하였습니다.<br>너그러운 마음으로 양해 부탁드립니다.</div>
+  <div style="height:60px;clear:both"></div>
+
+    <div class="bankInfoBtn" style="border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;">신랑측 계좌번호 보기<div class="bankInfoBtnICON"></div></div>
+  <div class="bank_contents" style="display: none;">
+    <div style="height:30px;clear:both"></div>
+    <table class="bankTB">
+      <colgroup><col width="60%"><col width="*">
+          </colgroup><tbody><tr>
+        <td class="bankm_name">김동환</td>
+        <td rowspan="2" style="position:relative" align="right" valign="bottom">
+          <div class="copyBtn" data-clipboard-text="3333056133770"><img src="https://m.bomtvcard.com/skin/wed150/images/linkIcon.png" class="linkIcon">계좌번호 복사</div>
+        </td>
+      </tr>
+      <tr height="10"><td colspan="2"></td></tr>
+      <tr>
+        <td colspan="2" class="bankm_bname">카카오뱅크 3333056133770</td>
+      </tr>    
+    </tbody></table>
+    <div style="height:30px;clear:both"></div>
+  </div>
+  
+
+
+    <div style="height:25px;clear:both"></div>
+  <div class="bankInfoBtn" style="border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;">신부측 계좌번호 보기<div class="bankInfoBtnICON"></div></div>
+  <div class="bank_contents" style="display: none;">
+    <div style="height:30px;clear:both"></div>
+    <table class="bankTB">
+      <colgroup><col width="60%"><col width="*">
+          </colgroup><tbody><tr>
+        <td class="bankm_name">조남창</td>
+        <td rowspan="2" style="position:relative" align="right" valign="bottom">
+          <div class="copyBtn" data-clipboard-text="110007562456"><img src="https://m.bomtvcard.com/skin/wed150/images/linkIcon.png" class="linkIcon">계좌번호 복사</div>
+        </td>
+      </tr>
+      <tr height="10"><td colspan="2"></td></tr>
+      <tr>
+        <td colspan="2" class="bankm_bname">신한은행 110007562456</td>
+      </tr>
+        </tbody></table>
+    <div style="height:30px;clear:both"></div>
+  </div>
+  
+
+
+  <div style="height:30px;clear:both"></div>  
+</div>
+
 <script>
 
 $(function(){
@@ -717,6 +809,7 @@ $(function(){
   });
 });
 </script>
+<!-- 계좌번호 마음 전하기 종료 -->
 
 
 <div style="clear:both">
